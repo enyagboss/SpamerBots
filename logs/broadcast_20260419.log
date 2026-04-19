@@ -1,0 +1,1087 @@
+2026-04-19 21:27:52,496 - telethon.network.mtprotosender - INFO - Connecting to 149.154.167.51:443/TcpFull...
+2026-04-19 21:27:55,068 - telethon.network.mtprotosender - INFO - Connection to 149.154.167.51:443/TcpFull complete!
+2026-04-19 21:27:56,749 - telethon.client.users - INFO - Phone migrated to 5
+2026-04-19 21:27:57,020 - telethon.client.telegrambaseclient - INFO - Reconnecting to new data center 5
+2026-04-19 21:27:57,534 - telethon.network.mtprotosender - INFO - Disconnecting from 149.154.167.51:443/TcpFull...
+2026-04-19 21:27:57,535 - telethon.network.mtprotosender - INFO - Disconnection from 149.154.167.51:443/TcpFull complete!
+2026-04-19 21:27:57,535 - telethon.network.mtprotosender - INFO - Connecting to 91.108.56.146:443/TcpFull...
+2026-04-19 21:28:00,382 - telethon.network.mtprotosender - INFO - Connection to 91.108.56.146:443/TcpFull complete!
+2026-04-19 21:28:42,237 - telethon.network.mtprotosender - INFO - Connecting to 91.108.56.146:443/TcpFull...
+2026-04-19 21:28:42,238 - telethon.network.mtprotosender - INFO - Connection to 91.108.56.146:443/TcpFull complete!
+2026-04-19 21:28:42,702 - src.broadcaster - INFO - Отправлено в Взаимные отзывы Авито
+2026-04-19 21:29:17,354 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8769353134:AAHB4LDYhJL8ayxjPFiznyNCdnmStPPau10/sendMessage "HTTP/1.1 400 Bad Request"
+2026-04-19 21:29:17,355 - src.notifier - ERROR - Не удалось отправить уведомление: Chat not found
+2026-04-19 21:29:17,355 - telethon.network.mtprotosender - INFO - Disconnecting from 91.108.56.146:443/TcpFull...
+2026-04-19 21:29:17,356 - telethon.network.mtprotosender - INFO - Disconnection from 91.108.56.146:443/TcpFull complete!
+2026-04-19 21:29:31,745 - asyncio - ERROR - Task was destroyed but it is pending!
+task: <Task pending name='Task-20' coro=<Connection._send_loop() done, defined at C:\Users\rusik\AppData\Local\Programs\Python\Python315\Lib\site-packages\telethon\network\connection\connection.py:316> wait_for=<Future cancelled>>
+2026-04-19 21:29:31,746 - asyncio - ERROR - Task was destroyed but it is pending!
+task: <Task pending name='Task-21' coro=<Connection._recv_loop() running at C:\Users\rusik\AppData\Local\Programs\Python\Python315\Lib\site-packages\telethon\network\connection\connection.py:361> wait_for=<Future pending cb=[Task.task_wakeup()]>>
+2026-04-19 21:29:31,746 - asyncio - ERROR - Task was destroyed but it is pending!
+task: <Task pending name='Task-22' coro=<MTProtoSender._send_loop() done, defined at C:\Users\rusik\AppData\Local\Programs\Python\Python315\Lib\site-packages\telethon\network\mtprotosender.py:452> wait_for=<Future pending cb=[Task.task_wakeup()]>>
+2026-04-19 21:29:31,747 - asyncio - ERROR - Task was destroyed but it is pending!
+task: <Task pending name='Task-23' coro=<MTProtoSender._recv_loop() done, defined at C:\Users\rusik\AppData\Local\Programs\Python\Python315\Lib\site-packages\telethon\network\mtprotosender.py:503> wait_for=<Future cancelled>>
+2026-04-19 21:29:44,178 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.4:5000
+2026-04-19 21:29:44,178 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2026-04-19 21:30:01,704 - werkzeug - INFO - 192.168.1.4 - - [19/Apr/2026 21:30:01] "GET / HTTP/1.1" 200 -
+2026-04-19 21:30:01,738 - werkzeug - INFO - 192.168.1.4 - - [19/Apr/2026 21:30:01] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2026-04-19 21:30:01,764 - werkzeug - INFO - 192.168.1.4 - - [19/Apr/2026 21:30:01] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2026-04-19 21:30:12,587 - werkzeug - INFO - 127.0.0.1 - - [19/Apr/2026 21:30:12] "GET / HTTP/1.1" 200 -
+2026-04-19 21:30:12,628 - werkzeug - INFO - 127.0.0.1 - - [19/Apr/2026 21:30:12] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2026-04-19 21:30:12,630 - werkzeug - INFO - 127.0.0.1 - - [19/Apr/2026 21:30:12] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2026-04-19 21:33:52,810 - telethon.network.mtprotosender - INFO - Connecting to 91.108.56.146:443/TcpFull...
+2026-04-19 21:33:52,811 - telethon.network.mtprotosender - INFO - Connection to 91.108.56.146:443/TcpFull complete!
+2026-04-19 21:34:11,430 - src.broadcaster - INFO - Отправлено в Взаимные отзывы Авито
+2026-04-19 21:34:12,376 - telethon.client.updates - INFO - Got difference for channel 1759541373 updates
+2026-04-19 21:34:42,453 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8769353134:AAHB4LDYhJL8ayxjPFiznyNCdnmStPPau10/sendMessage "HTTP/1.1 200 OK"
+2026-04-19 21:34:42,455 - telethon.network.mtprotosender - INFO - Disconnecting from 91.108.56.146:443/TcpFull...
+2026-04-19 21:34:42,455 - telethon.network.mtprotosender - INFO - Disconnection from 91.108.56.146:443/TcpFull complete!
+2026-04-19 21:35:33,684 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.4:5000
+2026-04-19 21:35:33,685 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2026-04-19 21:35:36,710 - werkzeug - INFO - 127.0.0.1 - - [19/Apr/2026 21:35:36] "GET / HTTP/1.1" 200 -
+2026-04-19 21:35:43,637 - werkzeug - INFO - 192.168.1.4 - - [19/Apr/2026 21:35:43] "GET / HTTP/1.1" 200 -
+2026-04-19 21:36:04,853 - werkzeug - INFO - 192.168.1.4 - - [19/Apr/2026 21:36:04] "GET / HTTP/1.1" 200 -
+2026-04-19 21:41:06,848 - telethon.network.mtprotosender - INFO - Connecting to 149.154.167.51:443/TcpFull...
+2026-04-19 21:41:08,970 - telethon.network.mtprotosender - INFO - Connection to 149.154.167.51:443/TcpFull complete!
+2026-04-19 21:41:10,273 - telethon.client.users - INFO - Phone migrated to 5
+2026-04-19 21:41:10,273 - telethon.client.telegrambaseclient - INFO - Reconnecting to new data center 5
+2026-04-19 21:41:11,183 - telethon.network.mtprotosender - INFO - Disconnecting from 149.154.167.51:443/TcpFull...
+2026-04-19 21:41:11,183 - telethon.network.mtprotosender - INFO - Disconnection from 149.154.167.51:443/TcpFull complete!
+2026-04-19 21:41:11,184 - telethon.network.mtprotosender - INFO - Connecting to 91.108.56.146:443/TcpFull...
+2026-04-19 21:41:13,899 - telethon.network.mtprotosender - INFO - Connection to 91.108.56.146:443/TcpFull complete!
+2026-04-19 21:41:30,628 - telethon.network.mtprotosender - INFO - Connecting to 91.108.56.146:443/TcpFull...
+2026-04-19 21:41:30,628 - telethon.network.mtprotosender - INFO - Connection to 91.108.56.146:443/TcpFull complete!
+2026-04-19 21:41:52,395 - telethon.network.mtprotosender - INFO - Connecting to 91.108.56.146:443/TcpFull...
+2026-04-19 21:41:52,396 - telethon.network.mtprotosender - INFO - Connection to 91.108.56.146:443/TcpFull complete!
+2026-04-19 21:49:14,931 - telethon.network.mtprotosender - INFO - Connecting to 91.108.56.146:443/TcpFull...
+2026-04-19 21:49:14,932 - telethon.network.mtprotosender - INFO - Connection to 91.108.56.146:443/TcpFull complete!
+2026-04-19 21:49:42,790 - telethon.network.connection.connection - ERROR - Unexpected exception in the send loop
+Traceback (most recent call last):
+  File "C:\Users\rusik\AppData\Local\Programs\Python\Python315\Lib\asyncio\queues.py", line 186, in get
+    await getter
+GeneratorExit
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\rusik\AppData\Local\Programs\Python\Python315\Lib\site-packages\telethon\network\connection\connection.py", line 322, in _send_loop
+    self._send(await self._send_queue.get())
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\rusik\AppData\Local\Programs\Python\Python315\Lib\asyncio\queues.py", line 188, in get
+    getter.cancel()  # Just in case getter is not done yet.
+    ~~~~~~~~~~~~~^^
+  File "C:\Users\rusik\AppData\Local\Programs\Python\Python315\Lib\asyncio\base_events.py", line 832, in call_soon
+    self._check_closed()
+    ~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\rusik\AppData\Local\Programs\Python\Python315\Lib\asyncio\base_events.py", line 555, in _check_closed
+    raise RuntimeError('Event loop is closed')
+RuntimeError: Event loop is closed
+2026-04-19 21:49:42,813 - asyncio - ERROR - Task was destroyed but it is pending!
+task: <Task cancelling name='Task-8' coro=<Connection._send_loop() running at C:\Users\rusik\AppData\Local\Programs\Python\Python315\Lib\site-packages\telethon\network\connection\connection.py:332> wait_for=<Future cancelled>>
+2026-04-19 21:49:42,813 - asyncio - ERROR - Task was destroyed but it is pending!
+task: <Task pending name='Task-9' coro=<Connection._recv_loop() done, defined at C:\Users\rusik\AppData\Local\Programs\Python\Python315\Lib\site-packages\telethon\network\connection\connection.py:334> wait_for=<Future pending cb=[Task.task_wakeup()]>>
+2026-04-19 21:49:42,813 - asyncio - ERROR - Task was destroyed but it is pending!
+task: <Task pending name='Task-10' coro=<MTProtoSender._send_loop() done, defined at C:\Users\rusik\AppData\Local\Programs\Python\Python315\Lib\site-packages\telethon\network\mtprotosender.py:452> wait_for=<Future pending cb=[Task.task_wakeup()]>>
+2026-04-19 21:49:42,813 - telethon.network.mtprotosender - ERROR - Unhandled error while receiving data
+Traceback (most recent call last):
+  File "C:\Users\rusik\AppData\Local\Programs\Python\Python315\Lib\asyncio\queues.py", line 186, in get
+    await getter
+GeneratorExit
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\rusik\AppData\Local\Programs\Python\Python315\Lib\site-packages\telethon\network\mtprotosender.py", line 513, in _recv_loop
+    body = await self._connection.recv()
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\rusik\AppData\Local\Programs\Python\Python315\Lib\site-packages\telethon\network\connection\connection.py", line 308, in recv
+    result, err = await self._recv_queue.get()
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\rusik\AppData\Local\Programs\Python\Python315\Lib\asyncio\queues.py", line 188, in get
+    getter.cancel()  # Just in case getter is not done yet.
+    ~~~~~~~~~~~~~^^
+  File "C:\Users\rusik\AppData\Local\Programs\Python\Python315\Lib\asyncio\base_events.py", line 832, in call_soon
+    self._check_closed()
+    ~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\rusik\AppData\Local\Programs\Python\Python315\Lib\asyncio\base_events.py", line 555, in _check_closed
+    raise RuntimeError('Event loop is closed')
+RuntimeError: Event loop is closed
+2026-04-19 21:49:42,826 - asyncio - ERROR - Task was destroyed but it is pending!
+task: <Task pending name='Task-11' coro=<MTProtoSender._recv_loop() done, defined at C:\Users\rusik\AppData\Local\Programs\Python\Python315\Lib\site-packages\telethon\network\mtprotosender.py:503> wait_for=<Future cancelled>>
+2026-04-19 21:49:42,826 - telethon.client.updates - ERROR - Fatal error handling updates (this is a bug in Telethon v1.43.1, please report it)
+Traceback (most recent call last):
+  File "C:\Users\rusik\AppData\Local\Programs\Python\Python315\Lib\asyncio\queues.py", line 186, in get
+    await getter
+GeneratorExit
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\rusik\AppData\Local\Programs\Python\Python315\Lib\site-packages\telethon\client\updates.py", line 485, in _update_loop
+    updates = await asyncio.wait_for(self._updates_queue.get(), deadline_delay)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\rusik\AppData\Local\Programs\Python\Python315\Lib\asyncio\tasks.py", line 488, in wait_for
+    return await fut
+           ^^^^^^^^^
+  File "C:\Users\rusik\AppData\Local\Programs\Python\Python315\Lib\asyncio\queues.py", line 188, in get
+    getter.cancel()  # Just in case getter is not done yet.
+    ~~~~~~~~~~~~~^^
+  File "C:\Users\rusik\AppData\Local\Programs\Python\Python315\Lib\asyncio\base_events.py", line 832, in call_soon
+    self._check_closed()
+    ~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\rusik\AppData\Local\Programs\Python\Python315\Lib\asyncio\base_events.py", line 555, in _check_closed
+    raise RuntimeError('Event loop is closed')
+RuntimeError: Event loop is closed
+2026-04-19 21:49:42,848 - telethon.network.mtprotosender - INFO - Closing current connection to begin reconnect...
+2026-04-19 21:49:42,848 - asyncio - ERROR - Task exception was never retrieved
+future: <Task finished name='Task-35' coro=<MTProtoSender._reconnect() done, defined at C:\Users\rusik\AppData\Local\Programs\Python\Python315\Lib\site-packages\telethon\network\mtprotosender.py:354> exception=RuntimeError('Event loop is closed')>
+Traceback (most recent call last):
+  File "C:\Users\rusik\AppData\Local\Programs\Python\Python315\Lib\asyncio\queues.py", line 186, in get
+    await getter
+GeneratorExit
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\rusik\AppData\Local\Programs\Python\Python315\Lib\site-packages\telethon\client\updates.py", line 485, in _update_loop
+    updates = await asyncio.wait_for(self._updates_queue.get(), deadline_delay)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\rusik\AppData\Local\Programs\Python\Python315\Lib\asyncio\tasks.py", line 488, in wait_for
+    return await fut
+           ^^^^^^^^^
+  File "C:\Users\rusik\AppData\Local\Programs\Python\Python315\Lib\asyncio\queues.py", line 188, in get
+    getter.cancel()  # Just in case getter is not done yet.
+    ~~~~~~~~~~~~~^^
+  File "C:\Users\rusik\AppData\Local\Programs\Python\Python315\Lib\asyncio\base_events.py", line 832, in call_soon
+    self._check_closed()
+    ~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\rusik\AppData\Local\Programs\Python\Python315\Lib\asyncio\base_events.py", line 555, in _check_closed
+    raise RuntimeError('Event loop is closed')
+RuntimeError: Event loop is closed
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\rusik\AppData\Local\Programs\Python\Python315\Lib\site-packages\telethon\network\mtprotosender.py", line 361, in _reconnect
+    await helpers._cancel(
+    ...<3 lines>...
+    )
+  File "C:\Users\rusik\AppData\Local\Programs\Python\Python315\Lib\site-packages\telethon\helpers.py", line 174, in _cancel
+    task.cancel()
+    ~~~~~~~~~~~^^
+  File "C:\Users\rusik\AppData\Local\Programs\Python\Python315\Lib\asyncio\base_events.py", line 832, in call_soon
+    self._check_closed()
+    ~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\rusik\AppData\Local\Programs\Python\Python315\Lib\asyncio\base_events.py", line 555, in _check_closed
+    raise RuntimeError('Event loop is closed')
+RuntimeError: Event loop is closed
+2026-04-19 21:49:42,859 - telethon.network.mtprotosender - INFO - Disconnecting from 91.108.56.146:443/TcpFull...
+2026-04-19 21:49:42,859 - telethon.network.mtprotosender - INFO - Disconnection from 91.108.56.146:443/TcpFull complete!
+2026-04-19 21:49:42,862 - asyncio - ERROR - Task was destroyed but it is pending!
+task: <Task pending name='Task-12' coro=<UpdateMethods._update_loop() done, defined at C:\Users\rusik\AppData\Local\Programs\Python\Python315\Lib\site-packages\telethon\client\updates.py:267> wait_for=<Future cancelled>>
+2026-04-19 21:49:42,862 - asyncio - ERROR - Task was destroyed but it is pending!
+task: <Task pending name='Task-13' coro=<UpdateMethods._keepalive_loop() done, defined at C:\Users\rusik\AppData\Local\Programs\Python\Python315\Lib\site-packages\telethon\client\updates.py:516> wait_for=<Future pending cb=[shield.<locals>._outer_done_callback() at C:\Users\rusik\AppData\Local\Programs\Python\Python315\Lib\asyncio\tasks.py:991, Task.task_wakeup()]>>
+2026-04-19 21:49:42,863 - telethon.network.connection.connection - ERROR - Unexpected exception in the send loop
+Traceback (most recent call last):
+  File "C:\Users\rusik\AppData\Local\Programs\Python\Python315\Lib\asyncio\queues.py", line 186, in get
+    await getter
+GeneratorExit
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\rusik\AppData\Local\Programs\Python\Python315\Lib\site-packages\telethon\network\connection\connection.py", line 322, in _send_loop
+    self._send(await self._send_queue.get())
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\rusik\AppData\Local\Programs\Python\Python315\Lib\asyncio\queues.py", line 188, in get
+    getter.cancel()  # Just in case getter is not done yet.
+    ~~~~~~~~~~~~~^^
+  File "C:\Users\rusik\AppData\Local\Programs\Python\Python315\Lib\asyncio\base_events.py", line 832, in call_soon
+    self._check_closed()
+    ~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\rusik\AppData\Local\Programs\Python\Python315\Lib\asyncio\base_events.py", line 555, in _check_closed
+    raise RuntimeError('Event loop is closed')
+RuntimeError: Event loop is closed
+2026-04-19 21:49:42,864 - asyncio - ERROR - Task was destroyed but it is pending!
+task: <Task cancelling name='Task-15' coro=<Connection._send_loop() running at C:\Users\rusik\AppData\Local\Programs\Python\Python315\Lib\site-packages\telethon\network\connection\connection.py:332> wait_for=<Future cancelled>>
+2026-04-19 21:49:42,864 - asyncio - ERROR - Task was destroyed but it is pending!
+task: <Task pending name='Task-16' coro=<Connection._recv_loop() done, defined at C:\Users\rusik\AppData\Local\Programs\Python\Python315\Lib\site-packages\telethon\network\connection\connection.py:334> wait_for=<Future pending cb=[Task.task_wakeup()]>>
+2026-04-19 21:49:42,864 - asyncio - ERROR - Task was destroyed but it is pending!
+task: <Task pending name='Task-17' coro=<MTProtoSender._send_loop() done, defined at C:\Users\rusik\AppData\Local\Programs\Python\Python315\Lib\site-packages\telethon\network\mtprotosender.py:452> wait_for=<Future pending cb=[Task.task_wakeup()]>>
+2026-04-19 21:49:42,864 - telethon.network.mtprotosender - ERROR - Unhandled error while receiving data
+Traceback (most recent call last):
+  File "C:\Users\rusik\AppData\Local\Programs\Python\Python315\Lib\asyncio\queues.py", line 186, in get
+    await getter
+GeneratorExit
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\rusik\AppData\Local\Programs\Python\Python315\Lib\site-packages\telethon\network\mtprotosender.py", line 513, in _recv_loop
+    body = await self._connection.recv()
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\rusik\AppData\Local\Programs\Python\Python315\Lib\site-packages\telethon\network\connection\connection.py", line 308, in recv
+    result, err = await self._recv_queue.get()
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\rusik\AppData\Local\Programs\Python\Python315\Lib\asyncio\queues.py", line 188, in get
+    getter.cancel()  # Just in case getter is not done yet.
+    ~~~~~~~~~~~~~^^
+  File "C:\Users\rusik\AppData\Local\Programs\Python\Python315\Lib\asyncio\base_events.py", line 832, in call_soon
+    self._check_closed()
+    ~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\rusik\AppData\Local\Programs\Python\Python315\Lib\asyncio\base_events.py", line 555, in _check_closed
+    raise RuntimeError('Event loop is closed')
+RuntimeError: Event loop is closed
+2026-04-19 21:49:42,865 - asyncio - ERROR - Task was destroyed but it is pending!
+task: <Task pending name='Task-18' coro=<MTProtoSender._recv_loop() done, defined at C:\Users\rusik\AppData\Local\Programs\Python\Python315\Lib\site-packages\telethon\network\mtprotosender.py:503> wait_for=<Future cancelled>>
+2026-04-19 21:49:42,865 - telethon.client.updates - ERROR - Fatal error handling updates (this is a bug in Telethon v1.43.1, please report it)
+Traceback (most recent call last):
+  File "C:\Users\rusik\AppData\Local\Programs\Python\Python315\Lib\asyncio\queues.py", line 186, in get
+    await getter
+GeneratorExit
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\rusik\AppData\Local\Programs\Python\Python315\Lib\site-packages\telethon\client\updates.py", line 485, in _update_loop
+    updates = await asyncio.wait_for(self._updates_queue.get(), deadline_delay)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\rusik\AppData\Local\Programs\Python\Python315\Lib\asyncio\tasks.py", line 488, in wait_for
+    return await fut
+           ^^^^^^^^^
+  File "C:\Users\rusik\AppData\Local\Programs\Python\Python315\Lib\asyncio\queues.py", line 188, in get
+    getter.cancel()  # Just in case getter is not done yet.
+    ~~~~~~~~~~~~~^^
+  File "C:\Users\rusik\AppData\Local\Programs\Python\Python315\Lib\asyncio\base_events.py", line 832, in call_soon
+    self._check_closed()
+    ~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\rusik\AppData\Local\Programs\Python\Python315\Lib\asyncio\base_events.py", line 555, in _check_closed
+    raise RuntimeError('Event loop is closed')
+RuntimeError: Event loop is closed
+2026-04-19 21:49:42,866 - telethon.network.mtprotosender - INFO - Closing current connection to begin reconnect...
+2026-04-19 21:49:42,866 - asyncio - ERROR - Task exception was never retrieved
+future: <Task finished name='Task-37' coro=<MTProtoSender._reconnect() done, defined at C:\Users\rusik\AppData\Local\Programs\Python\Python315\Lib\site-packages\telethon\network\mtprotosender.py:354> exception=RuntimeError('Event loop is closed')>
+Traceback (most recent call last):
+  File "C:\Users\rusik\AppData\Local\Programs\Python\Python315\Lib\asyncio\queues.py", line 186, in get
+    await getter
+GeneratorExit
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\rusik\AppData\Local\Programs\Python\Python315\Lib\site-packages\telethon\client\updates.py", line 485, in _update_loop
+    updates = await asyncio.wait_for(self._updates_queue.get(), deadline_delay)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\rusik\AppData\Local\Programs\Python\Python315\Lib\asyncio\tasks.py", line 488, in wait_for
+    return await fut
+           ^^^^^^^^^
+  File "C:\Users\rusik\AppData\Local\Programs\Python\Python315\Lib\asyncio\queues.py", line 188, in get
+    getter.cancel()  # Just in case getter is not done yet.
+    ~~~~~~~~~~~~~^^
+  File "C:\Users\rusik\AppData\Local\Programs\Python\Python315\Lib\asyncio\base_events.py", line 832, in call_soon
+    self._check_closed()
+    ~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\rusik\AppData\Local\Programs\Python\Python315\Lib\asyncio\base_events.py", line 555, in _check_closed
+    raise RuntimeError('Event loop is closed')
+RuntimeError: Event loop is closed
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\rusik\AppData\Local\Programs\Python\Python315\Lib\site-packages\telethon\network\mtprotosender.py", line 361, in _reconnect
+    await helpers._cancel(
+    ...<3 lines>...
+    )
+  File "C:\Users\rusik\AppData\Local\Programs\Python\Python315\Lib\site-packages\telethon\helpers.py", line 174, in _cancel
+    task.cancel()
+    ~~~~~~~~~~~^^
+  File "C:\Users\rusik\AppData\Local\Programs\Python\Python315\Lib\asyncio\base_events.py", line 832, in call_soon
+    self._check_closed()
+    ~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\rusik\AppData\Local\Programs\Python\Python315\Lib\asyncio\base_events.py", line 555, in _check_closed
+    raise RuntimeError('Event loop is closed')
+RuntimeError: Event loop is closed
+2026-04-19 21:49:42,867 - telethon.network.mtprotosender - INFO - Disconnecting from 91.108.56.146:443/TcpFull...
+2026-04-19 21:49:42,868 - telethon.network.mtprotosender - INFO - Disconnection from 91.108.56.146:443/TcpFull complete!
+2026-04-19 21:49:42,870 - asyncio - ERROR - Task was destroyed but it is pending!
+task: <Task pending name='Task-19' coro=<UpdateMethods._update_loop() done, defined at C:\Users\rusik\AppData\Local\Programs\Python\Python315\Lib\site-packages\telethon\client\updates.py:267> wait_for=<Future cancelled>>
+2026-04-19 21:49:42,870 - asyncio - ERROR - Task was destroyed but it is pending!
+task: <Task pending name='Task-20' coro=<UpdateMethods._keepalive_loop() done, defined at C:\Users\rusik\AppData\Local\Programs\Python\Python315\Lib\site-packages\telethon\client\updates.py:516> wait_for=<Future pending cb=[shield.<locals>._outer_done_callback() at C:\Users\rusik\AppData\Local\Programs\Python\Python315\Lib\asyncio\tasks.py:991, Task.task_wakeup()]>>
+2026-04-19 21:49:42,871 - telethon.network.connection.connection - ERROR - Unexpected exception in the send loop
+Traceback (most recent call last):
+  File "C:\Users\rusik\AppData\Local\Programs\Python\Python315\Lib\asyncio\queues.py", line 186, in get
+    await getter
+GeneratorExit
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\rusik\AppData\Local\Programs\Python\Python315\Lib\site-packages\telethon\network\connection\connection.py", line 322, in _send_loop
+    self._send(await self._send_queue.get())
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\rusik\AppData\Local\Programs\Python\Python315\Lib\asyncio\queues.py", line 188, in get
+    getter.cancel()  # Just in case getter is not done yet.
+    ~~~~~~~~~~~~~^^
+  File "C:\Users\rusik\AppData\Local\Programs\Python\Python315\Lib\asyncio\base_events.py", line 832, in call_soon
+    self._check_closed()
+    ~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\rusik\AppData\Local\Programs\Python\Python315\Lib\asyncio\base_events.py", line 555, in _check_closed
+    raise RuntimeError('Event loop is closed')
+RuntimeError: Event loop is closed
+2026-04-19 21:49:42,871 - asyncio - ERROR - Task was destroyed but it is pending!
+task: <Task cancelling name='Task-22' coro=<Connection._send_loop() running at C:\Users\rusik\AppData\Local\Programs\Python\Python315\Lib\site-packages\telethon\network\connection\connection.py:332> wait_for=<Future cancelled>>
+2026-04-19 21:49:42,871 - asyncio - ERROR - Task was destroyed but it is pending!
+task: <Task pending name='Task-23' coro=<Connection._recv_loop() done, defined at C:\Users\rusik\AppData\Local\Programs\Python\Python315\Lib\site-packages\telethon\network\connection\connection.py:334> wait_for=<Future pending cb=[Task.task_wakeup()]>>
+2026-04-19 21:49:42,872 - asyncio - ERROR - Task was destroyed but it is pending!
+task: <Task pending name='Task-24' coro=<MTProtoSender._send_loop() done, defined at C:\Users\rusik\AppData\Local\Programs\Python\Python315\Lib\site-packages\telethon\network\mtprotosender.py:452> wait_for=<Future pending cb=[Task.task_wakeup()]>>
+2026-04-19 21:49:42,872 - telethon.network.mtprotosender - ERROR - Unhandled error while receiving data
+Traceback (most recent call last):
+  File "C:\Users\rusik\AppData\Local\Programs\Python\Python315\Lib\asyncio\queues.py", line 186, in get
+    await getter
+GeneratorExit
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\rusik\AppData\Local\Programs\Python\Python315\Lib\site-packages\telethon\network\mtprotosender.py", line 513, in _recv_loop
+    body = await self._connection.recv()
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\rusik\AppData\Local\Programs\Python\Python315\Lib\site-packages\telethon\network\connection\connection.py", line 308, in recv
+    result, err = await self._recv_queue.get()
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\rusik\AppData\Local\Programs\Python\Python315\Lib\asyncio\queues.py", line 188, in get
+    getter.cancel()  # Just in case getter is not done yet.
+    ~~~~~~~~~~~~~^^
+  File "C:\Users\rusik\AppData\Local\Programs\Python\Python315\Lib\asyncio\base_events.py", line 832, in call_soon
+    self._check_closed()
+    ~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\rusik\AppData\Local\Programs\Python\Python315\Lib\asyncio\base_events.py", line 555, in _check_closed
+    raise RuntimeError('Event loop is closed')
+RuntimeError: Event loop is closed
+2026-04-19 21:49:42,872 - asyncio - ERROR - Task was destroyed but it is pending!
+task: <Task pending name='Task-25' coro=<MTProtoSender._recv_loop() done, defined at C:\Users\rusik\AppData\Local\Programs\Python\Python315\Lib\site-packages\telethon\network\mtprotosender.py:503> wait_for=<Future cancelled>>
+2026-04-19 21:49:42,873 - telethon.client.updates - ERROR - Fatal error handling updates (this is a bug in Telethon v1.43.1, please report it)
+Traceback (most recent call last):
+  File "C:\Users\rusik\AppData\Local\Programs\Python\Python315\Lib\asyncio\queues.py", line 186, in get
+    await getter
+GeneratorExit
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\rusik\AppData\Local\Programs\Python\Python315\Lib\site-packages\telethon\client\updates.py", line 485, in _update_loop
+    updates = await asyncio.wait_for(self._updates_queue.get(), deadline_delay)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\rusik\AppData\Local\Programs\Python\Python315\Lib\asyncio\tasks.py", line 488, in wait_for
+    return await fut
+           ^^^^^^^^^
+  File "C:\Users\rusik\AppData\Local\Programs\Python\Python315\Lib\asyncio\queues.py", line 188, in get
+    getter.cancel()  # Just in case getter is not done yet.
+    ~~~~~~~~~~~~~^^
+  File "C:\Users\rusik\AppData\Local\Programs\Python\Python315\Lib\asyncio\base_events.py", line 832, in call_soon
+    self._check_closed()
+    ~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\rusik\AppData\Local\Programs\Python\Python315\Lib\asyncio\base_events.py", line 555, in _check_closed
+    raise RuntimeError('Event loop is closed')
+RuntimeError: Event loop is closed
+2026-04-19 21:49:42,873 - telethon.network.mtprotosender - INFO - Closing current connection to begin reconnect...
+2026-04-19 21:49:42,873 - asyncio - ERROR - Task exception was never retrieved
+future: <Task finished name='Task-39' coro=<MTProtoSender._reconnect() done, defined at C:\Users\rusik\AppData\Local\Programs\Python\Python315\Lib\site-packages\telethon\network\mtprotosender.py:354> exception=RuntimeError('Event loop is closed')>
+Traceback (most recent call last):
+  File "C:\Users\rusik\AppData\Local\Programs\Python\Python315\Lib\asyncio\queues.py", line 186, in get
+    await getter
+GeneratorExit
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\rusik\AppData\Local\Programs\Python\Python315\Lib\site-packages\telethon\client\updates.py", line 485, in _update_loop
+    updates = await asyncio.wait_for(self._updates_queue.get(), deadline_delay)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\rusik\AppData\Local\Programs\Python\Python315\Lib\asyncio\tasks.py", line 488, in wait_for
+    return await fut
+           ^^^^^^^^^
+  File "C:\Users\rusik\AppData\Local\Programs\Python\Python315\Lib\asyncio\queues.py", line 188, in get
+    getter.cancel()  # Just in case getter is not done yet.
+    ~~~~~~~~~~~~~^^
+  File "C:\Users\rusik\AppData\Local\Programs\Python\Python315\Lib\asyncio\base_events.py", line 832, in call_soon
+    self._check_closed()
+    ~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\rusik\AppData\Local\Programs\Python\Python315\Lib\asyncio\base_events.py", line 555, in _check_closed
+    raise RuntimeError('Event loop is closed')
+RuntimeError: Event loop is closed
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\rusik\AppData\Local\Programs\Python\Python315\Lib\site-packages\telethon\network\mtprotosender.py", line 361, in _reconnect
+    await helpers._cancel(
+    ...<3 lines>...
+    )
+  File "C:\Users\rusik\AppData\Local\Programs\Python\Python315\Lib\site-packages\telethon\helpers.py", line 174, in _cancel
+    task.cancel()
+    ~~~~~~~~~~~^^
+  File "C:\Users\rusik\AppData\Local\Programs\Python\Python315\Lib\asyncio\base_events.py", line 832, in call_soon
+    self._check_closed()
+    ~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\rusik\AppData\Local\Programs\Python\Python315\Lib\asyncio\base_events.py", line 555, in _check_closed
+    raise RuntimeError('Event loop is closed')
+RuntimeError: Event loop is closed
+2026-04-19 21:49:42,875 - telethon.network.mtprotosender - INFO - Disconnecting from 91.108.56.146:443/TcpFull...
+2026-04-19 21:49:42,875 - telethon.network.mtprotosender - INFO - Disconnection from 91.108.56.146:443/TcpFull complete!
+2026-04-19 21:49:42,877 - asyncio - ERROR - Task was destroyed but it is pending!
+task: <Task pending name='Task-26' coro=<UpdateMethods._update_loop() done, defined at C:\Users\rusik\AppData\Local\Programs\Python\Python315\Lib\site-packages\telethon\client\updates.py:267> wait_for=<Future cancelled>>
+2026-04-19 21:49:42,877 - asyncio - ERROR - Task was destroyed but it is pending!
+task: <Task pending name='Task-27' coro=<UpdateMethods._keepalive_loop() done, defined at C:\Users\rusik\AppData\Local\Programs\Python\Python315\Lib\site-packages\telethon\client\updates.py:516> wait_for=<Future pending cb=[shield.<locals>._outer_done_callback() at C:\Users\rusik\AppData\Local\Programs\Python\Python315\Lib\asyncio\tasks.py:991, Task.task_wakeup()]>>
+2026-04-19 21:49:42,899 - asyncio - ERROR - Task was destroyed but it is pending!
+task: <Task pending name='Task-33' coro=<UpdateMethods._update_loop() running at C:\Users\rusik\AppData\Local\Programs\Python\Python315\Lib\site-packages\telethon\client\updates.py:485> wait_for=<Future pending cb=[Task.task_wakeup()]>>
+2026-04-19 21:49:42,899 - asyncio - ERROR - Task was destroyed but it is pending!
+task: <Task pending name='Task-34' coro=<UpdateMethods._keepalive_loop() running at C:\Users\rusik\AppData\Local\Programs\Python\Python315\Lib\site-packages\telethon\client\updates.py:521> wait_for=<Future pending cb=[shield.<locals>._outer_done_callback() at C:\Users\rusik\AppData\Local\Programs\Python\Python315\Lib\asyncio\tasks.py:991, Task.task_wakeup()]>>
+2026-04-19 21:49:42,899 - telethon.client.updates - ERROR - Fatal error handling updates (this is a bug in Telethon v1.43.1, please report it)
+Traceback (most recent call last):
+  File "C:\Users\rusik\AppData\Local\Programs\Python\Python315\Lib\asyncio\queues.py", line 186, in get
+    await getter
+GeneratorExit
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\rusik\AppData\Local\Programs\Python\Python315\Lib\site-packages\telethon\client\updates.py", line 485, in _update_loop
+    updates = await asyncio.wait_for(self._updates_queue.get(), deadline_delay)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\rusik\AppData\Local\Programs\Python\Python315\Lib\asyncio\tasks.py", line 488, in wait_for
+    return await fut
+           ^^^^^^^^^
+  File "C:\Users\rusik\AppData\Local\Programs\Python\Python315\Lib\asyncio\queues.py", line 188, in get
+    getter.cancel()  # Just in case getter is not done yet.
+    ^^^^^^^^^^^^^^^
+  File "C:\Users\rusik\AppData\Local\Programs\Python\Python315\Lib\asyncio\base_events.py", line 832, in call_soon
+    self._check_closed()
+  File "C:\Users\rusik\AppData\Local\Programs\Python\Python315\Lib\asyncio\base_events.py", line 555, in _check_closed
+    raise RuntimeError('Event loop is closed')
+RuntimeError: Event loop is closed
+2026-04-19 21:49:42,900 - telethon.network.mtprotosender - INFO - Disconnecting from 91.108.56.146:443/TcpFull...
+2026-04-19 21:49:42,900 - asyncio - ERROR - Error on reading from the event loop self pipe
+loop: <ProactorEventLoop running=True closed=False debug=False>
+Traceback (most recent call last):
+  File "C:\Users\rusik\AppData\Local\Programs\Python\Python315\Lib\asyncio\queues.py", line 186, in get
+    await getter
+GeneratorExit
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\rusik\AppData\Local\Programs\Python\Python315\Lib\site-packages\telethon\client\updates.py", line 485, in _update_loop
+    updates = await asyncio.wait_for(self._updates_queue.get(), deadline_delay)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\rusik\AppData\Local\Programs\Python\Python315\Lib\asyncio\tasks.py", line 488, in wait_for
+    return await fut
+           ^^^^^^^^^
+  File "C:\Users\rusik\AppData\Local\Programs\Python\Python315\Lib\asyncio\queues.py", line 188, in get
+    getter.cancel()  # Just in case getter is not done yet.
+    ^^^^^^^^^^^^^^^
+  File "C:\Users\rusik\AppData\Local\Programs\Python\Python315\Lib\asyncio\base_events.py", line 832, in call_soon
+    self._check_closed()
+  File "C:\Users\rusik\AppData\Local\Programs\Python\Python315\Lib\asyncio\base_events.py", line 555, in _check_closed
+    raise RuntimeError('Event loop is closed')
+RuntimeError: Event loop is closed
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\rusik\AppData\Local\Programs\Python\Python315\Lib\asyncio\proactor_events.py", line 803, in _loop_self_reading
+  File "C:\Users\rusik\AppData\Local\Programs\Python\Python315\Lib\asyncio\windows_events.py", line 484, in recv
+  File "C:\Users\rusik\AppData\Local\Programs\Python\Python315\Lib\asyncio\windows_events.py", line 710, in _register_with_iocp
+OSError: [WinError 87] Параметр задан неверно
+2026-04-19 21:49:42,902 - asyncio - ERROR - Task was destroyed but it is pending!
+task: <Task pending name='Task-32' coro=<MTProtoSender._recv_loop() running at C:\Users\rusik\AppData\Local\Programs\Python\Python315\Lib\site-packages\telethon\network\mtprotosender.py:513> wait_for=<Future pending cb=[Task.task_wakeup()]>>
+2026-04-19 21:49:42,902 - asyncio - ERROR - Task was destroyed but it is pending!
+task: <Task cancelling name='Task-31' coro=<MTProtoSender._send_loop() running at C:\Users\rusik\AppData\Local\Programs\Python\Python315\Lib\site-packages\telethon\network\mtprotosender.py:470> wait_for=<Future cancelled>>
+2026-04-19 21:49:42,902 - asyncio - ERROR - Task was destroyed but it is pending!
+task: <Task cancelling name='Task-29' coro=<Connection._send_loop() running at C:\Users\rusik\AppData\Local\Programs\Python\Python315\Lib\site-packages\telethon\network\connection\connection.py:322> wait_for=<Future cancelled>>
+2026-04-19 21:49:42,902 - asyncio - ERROR - Task was destroyed but it is pending!
+task: <Task pending name='Task-30' coro=<Connection._recv_loop() running at C:\Users\rusik\AppData\Local\Programs\Python\Python315\Lib\site-packages\telethon\network\connection\connection.py:341> wait_for=<Future pending cb=[Task.task_wakeup()]>>
+2026-04-19 21:49:42,902 - telethon.network.mtprotosender - ERROR - Unhandled error while receiving data
+Traceback (most recent call last):
+  File "C:\Users\rusik\AppData\Local\Programs\Python\Python315\Lib\asyncio\queues.py", line 186, in get
+    await getter
+GeneratorExit
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\rusik\AppData\Local\Programs\Python\Python315\Lib\site-packages\telethon\network\mtprotosender.py", line 513, in _recv_loop
+    body = await self._connection.recv()
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\rusik\AppData\Local\Programs\Python\Python315\Lib\site-packages\telethon\network\connection\connection.py", line 308, in recv
+    result, err = await self._recv_queue.get()
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\rusik\AppData\Local\Programs\Python\Python315\Lib\asyncio\queues.py", line 188, in get
+    getter.cancel()  # Just in case getter is not done yet.
+    ^^^^^^^^^^^^^^^
+  File "C:\Users\rusik\AppData\Local\Programs\Python\Python315\Lib\asyncio\base_events.py", line 832, in call_soon
+    self._check_closed()
+  File "C:\Users\rusik\AppData\Local\Programs\Python\Python315\Lib\asyncio\base_events.py", line 555, in _check_closed
+    raise RuntimeError('Event loop is closed')
+RuntimeError: Event loop is closed
+2026-04-19 21:50:18,352 - telethon.network.mtprotosender - INFO - Connecting to 149.154.167.51:443/TcpFull...
+2026-04-19 21:50:20,378 - telethon.network.mtprotosender - INFO - Connection to 149.154.167.51:443/TcpFull complete!
+2026-04-19 21:50:22,142 - telethon.client.users - INFO - Phone migrated to 5
+2026-04-19 21:50:22,142 - telethon.client.telegrambaseclient - INFO - Reconnecting to new data center 5
+2026-04-19 21:50:22,500 - telethon.network.mtprotosender - INFO - Disconnecting from 149.154.167.51:443/TcpFull...
+2026-04-19 21:50:22,501 - telethon.network.mtprotosender - INFO - Disconnection from 149.154.167.51:443/TcpFull complete!
+2026-04-19 21:50:22,501 - telethon.network.mtprotosender - INFO - Connecting to 91.108.56.146:443/TcpFull...
+2026-04-19 21:50:25,042 - telethon.network.mtprotosender - INFO - Connection to 91.108.56.146:443/TcpFull complete!
+2026-04-19 21:51:09,083 - asyncio - ERROR - Task was destroyed but it is pending!
+task: <Task pending name='Task-12' coro=<UpdateMethods._update_loop() running at C:\Users\rusik\AppData\Local\Programs\Python\Python315\Lib\site-packages\telethon\client\updates.py:485> wait_for=<Future pending cb=[Task.task_wakeup()]>>
+2026-04-19 21:51:09,084 - asyncio - ERROR - Task was destroyed but it is pending!
+task: <Task pending name='Task-13' coro=<UpdateMethods._keepalive_loop() running at C:\Users\rusik\AppData\Local\Programs\Python\Python315\Lib\site-packages\telethon\client\updates.py:521> wait_for=<Future pending cb=[shield.<locals>._outer_done_callback() at C:\Users\rusik\AppData\Local\Programs\Python\Python315\Lib\asyncio\tasks.py:991, Task.task_wakeup()]>>
+2026-04-19 21:51:09,084 - telethon.client.updates - ERROR - Fatal error handling updates (this is a bug in Telethon v1.43.1, please report it)
+Traceback (most recent call last):
+  File "C:\Users\rusik\AppData\Local\Programs\Python\Python315\Lib\asyncio\queues.py", line 186, in get
+GeneratorExit
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\rusik\AppData\Local\Programs\Python\Python315\Lib\site-packages\telethon\client\updates.py", line 485, in _update_loop
+  File "C:\Users\rusik\AppData\Local\Programs\Python\Python315\Lib\asyncio\tasks.py", line 488, in wait_for
+  File "C:\Users\rusik\AppData\Local\Programs\Python\Python315\Lib\asyncio\queues.py", line 188, in get
+  File "C:\Users\rusik\AppData\Local\Programs\Python\Python315\Lib\asyncio\base_events.py", line 832, in call_soon
+  File "C:\Users\rusik\AppData\Local\Programs\Python\Python315\Lib\asyncio\base_events.py", line 555, in _check_closed
+RuntimeError: Event loop is closed
+2026-04-19 21:51:09,088 - asyncio - ERROR - Task was destroyed but it is pending!
+task: <Task pending name='Task-11' coro=<MTProtoSender._recv_loop() running at C:\Users\rusik\AppData\Local\Programs\Python\Python315\Lib\site-packages\telethon\network\mtprotosender.py:513> wait_for=<Future pending cb=[Task.task_wakeup()]>>
+2026-04-19 21:51:09,088 - asyncio - ERROR - Task was destroyed but it is pending!
+task: <Task pending name='Task-10' coro=<MTProtoSender._send_loop() running at C:\Users\rusik\AppData\Local\Programs\Python\Python315\Lib\site-packages\telethon\network\mtprotosender.py:470> wait_for=<Future pending cb=[Task.task_wakeup()]>>
+2026-04-19 21:51:09,088 - asyncio - ERROR - Task was destroyed but it is pending!
+task: <Task pending name='Task-8' coro=<Connection._send_loop() running at C:\Users\rusik\AppData\Local\Programs\Python\Python315\Lib\site-packages\telethon\network\connection\connection.py:322> wait_for=<Future pending cb=[Task.task_wakeup()]>>
+2026-04-19 21:51:09,088 - asyncio - ERROR - Task was destroyed but it is pending!
+task: <Task pending name='Task-9' coro=<Connection._recv_loop() running at C:\Users\rusik\AppData\Local\Programs\Python\Python315\Lib\site-packages\telethon\network\connection\connection.py:341> wait_for=<Future pending cb=[Task.task_wakeup()]>>
+2026-04-19 21:51:09,088 - telethon.network.mtprotosender - ERROR - Unhandled error while receiving data
+Traceback (most recent call last):
+  File "C:\Users\rusik\AppData\Local\Programs\Python\Python315\Lib\asyncio\queues.py", line 186, in get
+GeneratorExit
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\rusik\AppData\Local\Programs\Python\Python315\Lib\site-packages\telethon\network\mtprotosender.py", line 513, in _recv_loop
+  File "C:\Users\rusik\AppData\Local\Programs\Python\Python315\Lib\site-packages\telethon\network\connection\connection.py", line 308, in recv
+  File "C:\Users\rusik\AppData\Local\Programs\Python\Python315\Lib\asyncio\queues.py", line 188, in get
+  File "C:\Users\rusik\AppData\Local\Programs\Python\Python315\Lib\asyncio\base_events.py", line 832, in call_soon
+  File "C:\Users\rusik\AppData\Local\Programs\Python\Python315\Lib\asyncio\base_events.py", line 555, in _check_closed
+RuntimeError: Event loop is closed
+2026-04-19 21:51:09,090 - telethon.network.connection.connection - ERROR - Unexpected exception in the send loop
+Traceback (most recent call last):
+  File "C:\Users\rusik\AppData\Local\Programs\Python\Python315\Lib\asyncio\queues.py", line 186, in get
+GeneratorExit
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\rusik\AppData\Local\Programs\Python\Python315\Lib\site-packages\telethon\network\connection\connection.py", line 322, in _send_loop
+  File "C:\Users\rusik\AppData\Local\Programs\Python\Python315\Lib\asyncio\queues.py", line 188, in get
+  File "C:\Users\rusik\AppData\Local\Programs\Python\Python315\Lib\asyncio\base_events.py", line 832, in call_soon
+  File "C:\Users\rusik\AppData\Local\Programs\Python\Python315\Lib\asyncio\base_events.py", line 555, in _check_closed
+RuntimeError: Event loop is closed
+2026-04-19 21:52:36,462 - telethon.network.mtprotosender - INFO - Connecting to 149.154.167.51:443/TcpFull...
+2026-04-19 21:52:38,944 - telethon.network.mtprotosender - INFO - Connection to 149.154.167.51:443/TcpFull complete!
+2026-04-19 21:52:40,351 - telethon.client.users - INFO - Phone migrated to 5
+2026-04-19 21:52:40,352 - telethon.client.telegrambaseclient - INFO - Reconnecting to new data center 5
+2026-04-19 21:52:40,627 - telethon.network.mtprotosender - INFO - Disconnecting from 149.154.167.51:443/TcpFull...
+2026-04-19 21:52:40,628 - telethon.network.mtprotosender - INFO - Disconnection from 149.154.167.51:443/TcpFull complete!
+2026-04-19 21:52:40,628 - telethon.network.mtprotosender - INFO - Connecting to 91.108.56.146:443/TcpFull...
+2026-04-19 21:52:43,553 - telethon.network.mtprotosender - INFO - Connection to 91.108.56.146:443/TcpFull complete!
+2026-04-19 21:54:05,015 - telethon.client.updates - INFO - Got difference for channel 1759541373 updates
+2026-04-19 21:59:25,918 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8769353134:AAHB4LDYhJL8ayxjPFiznyNCdnmStPPau10/sendMessage "HTTP/1.1 200 OK"
+2026-04-19 21:59:25,921 - telethon.network.mtprotosender - INFO - Disconnecting from 91.108.56.146:443/TcpFull...
+2026-04-19 21:59:25,921 - telethon.network.mtprotosender - INFO - Disconnection from 91.108.56.146:443/TcpFull complete!
+2026-04-19 22:13:30,275 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8769353134:AAHB4LDYhJL8ayxjPFiznyNCdnmStPPau10/getMe "HTTP/1.1 200 OK"
+2026-04-19 22:13:30,541 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8769353134:AAHB4LDYhJL8ayxjPFiznyNCdnmStPPau10/deleteWebhook "HTTP/1.1 200 OK"
+2026-04-19 22:13:30,543 - telegram.ext.Application - INFO - Application started
+2026-04-19 22:13:31,475 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8769353134:AAHB4LDYhJL8ayxjPFiznyNCdnmStPPau10/getUpdates "HTTP/1.1 200 OK"
+2026-04-19 22:13:31,786 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8769353134:AAHB4LDYhJL8ayxjPFiznyNCdnmStPPau10/sendMessage "HTTP/1.1 200 OK"
+2026-04-19 22:13:32,356 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8769353134:AAHB4LDYhJL8ayxjPFiznyNCdnmStPPau10/sendMessage "HTTP/1.1 200 OK"
+2026-04-19 22:13:32,672 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8769353134:AAHB4LDYhJL8ayxjPFiznyNCdnmStPPau10/sendMessage "HTTP/1.1 200 OK"
+2026-04-19 22:13:33,287 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8769353134:AAHB4LDYhJL8ayxjPFiznyNCdnmStPPau10/sendMessage "HTTP/1.1 200 OK"
+2026-04-19 22:13:41,785 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8769353134:AAHB4LDYhJL8ayxjPFiznyNCdnmStPPau10/getUpdates "HTTP/1.1 200 OK"
+2026-04-19 22:13:45,412 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8769353134:AAHB4LDYhJL8ayxjPFiznyNCdnmStPPau10/getUpdates "HTTP/1.1 200 OK"
+2026-04-19 22:13:46,311 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8769353134:AAHB4LDYhJL8ayxjPFiznyNCdnmStPPau10/answerCallbackQuery "HTTP/1.1 200 OK"
+2026-04-19 22:13:46,592 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8769353134:AAHB4LDYhJL8ayxjPFiznyNCdnmStPPau10/editMessageText "HTTP/1.1 200 OK"
+2026-04-19 22:13:46,617 - telethon.network.mtprotosender - INFO - Connecting to 91.108.56.146:443/TcpFull...
+2026-04-19 22:13:46,618 - telethon.network.mtprotosender - INFO - Connection to 91.108.56.146:443/TcpFull complete!
+2026-04-19 22:13:49,901 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8769353134:AAHB4LDYhJL8ayxjPFiznyNCdnmStPPau10/getMe "HTTP/1.1 200 OK"
+2026-04-19 22:13:50,186 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8769353134:AAHB4LDYhJL8ayxjPFiznyNCdnmStPPau10/sendMessage "HTTP/1.1 200 OK"
+2026-04-19 22:13:55,709 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8769353134:AAHB4LDYhJL8ayxjPFiznyNCdnmStPPau10/getUpdates "HTTP/1.1 200 OK"
+2026-04-19 22:14:04,528 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8769353134:AAHB4LDYhJL8ayxjPFiznyNCdnmStPPau10/sendMessage "HTTP/1.1 200 OK"
+2026-04-19 22:14:04,885 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8769353134:AAHB4LDYhJL8ayxjPFiznyNCdnmStPPau10/getMe "HTTP/1.1 200 OK"
+2026-04-19 22:14:05,175 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8769353134:AAHB4LDYhJL8ayxjPFiznyNCdnmStPPau10/sendMessage "HTTP/1.1 200 OK"
+2026-04-19 22:14:05,987 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8769353134:AAHB4LDYhJL8ayxjPFiznyNCdnmStPPau10/getUpdates "HTTP/1.1 200 OK"
+2026-04-19 22:14:16,265 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8769353134:AAHB4LDYhJL8ayxjPFiznyNCdnmStPPau10/getUpdates "HTTP/1.1 200 OK"
+2026-04-19 22:14:26,543 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8769353134:AAHB4LDYhJL8ayxjPFiznyNCdnmStPPau10/getUpdates "HTTP/1.1 200 OK"
+2026-04-19 22:14:37,168 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8769353134:AAHB4LDYhJL8ayxjPFiznyNCdnmStPPau10/getUpdates "HTTP/1.1 200 OK"
+2026-04-19 22:14:40,691 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8769353134:AAHB4LDYhJL8ayxjPFiznyNCdnmStPPau10/sendMessage "HTTP/1.1 200 OK"
+2026-04-19 22:14:40,749 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8769353134:AAHB4LDYhJL8ayxjPFiznyNCdnmStPPau10/getMe "HTTP/1.1 200 OK"
+2026-04-19 22:14:41,534 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8769353134:AAHB4LDYhJL8ayxjPFiznyNCdnmStPPau10/sendMessage "HTTP/1.1 200 OK"
+2026-04-19 22:14:47,447 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8769353134:AAHB4LDYhJL8ayxjPFiznyNCdnmStPPau10/getUpdates "HTTP/1.1 200 OK"
+2026-04-19 22:14:57,729 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8769353134:AAHB4LDYhJL8ayxjPFiznyNCdnmStPPau10/getUpdates "HTTP/1.1 200 OK"
+2026-04-19 22:15:02,991 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8769353134:AAHB4LDYhJL8ayxjPFiznyNCdnmStPPau10/getUpdates "HTTP/1.1 200 OK"
+2026-04-19 22:15:04,300 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8769353134:AAHB4LDYhJL8ayxjPFiznyNCdnmStPPau10/answerCallbackQuery "HTTP/1.1 200 OK"
+2026-04-19 22:15:04,588 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8769353134:AAHB4LDYhJL8ayxjPFiznyNCdnmStPPau10/editMessageText "HTTP/1.1 200 OK"
+2026-04-19 22:15:13,268 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8769353134:AAHB4LDYhJL8ayxjPFiznyNCdnmStPPau10/getUpdates "HTTP/1.1 200 OK"
+2026-04-19 22:15:17,675 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8769353134:AAHB4LDYhJL8ayxjPFiznyNCdnmStPPau10/getMe "HTTP/1.1 200 OK"
+2026-04-19 22:15:17,960 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8769353134:AAHB4LDYhJL8ayxjPFiznyNCdnmStPPau10/sendMessage "HTTP/1.1 200 OK"
+2026-04-19 22:15:18,026 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8769353134:AAHB4LDYhJL8ayxjPFiznyNCdnmStPPau10/sendMessage "HTTP/1.1 200 OK"
+2026-04-19 22:15:23,542 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8769353134:AAHB4LDYhJL8ayxjPFiznyNCdnmStPPau10/getUpdates "HTTP/1.1 200 OK"
+2026-04-19 22:15:33,819 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8769353134:AAHB4LDYhJL8ayxjPFiznyNCdnmStPPau10/getUpdates "HTTP/1.1 200 OK"
+2026-04-19 22:15:44,093 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8769353134:AAHB4LDYhJL8ayxjPFiznyNCdnmStPPau10/getUpdates "HTTP/1.1 200 OK"
+2026-04-19 22:15:54,267 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8769353134:AAHB4LDYhJL8ayxjPFiznyNCdnmStPPau10/sendMessage "HTTP/1.1 200 OK"
+2026-04-19 22:15:54,323 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8769353134:AAHB4LDYhJL8ayxjPFiznyNCdnmStPPau10/getMe "HTTP/1.1 200 OK"
+2026-04-19 22:15:54,372 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8769353134:AAHB4LDYhJL8ayxjPFiznyNCdnmStPPau10/getUpdates "HTTP/1.1 200 OK"
+2026-04-19 22:15:55,113 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8769353134:AAHB4LDYhJL8ayxjPFiznyNCdnmStPPau10/sendMessage "HTTP/1.1 200 OK"
+2026-04-19 22:16:04,655 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8769353134:AAHB4LDYhJL8ayxjPFiznyNCdnmStPPau10/getUpdates "HTTP/1.1 200 OK"
+2026-04-19 22:16:15,236 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8769353134:AAHB4LDYhJL8ayxjPFiznyNCdnmStPPau10/getUpdates "HTTP/1.1 200 OK"
+2026-04-19 22:16:18,271 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8769353134:AAHB4LDYhJL8ayxjPFiznyNCdnmStPPau10/getUpdates "HTTP/1.1 200 OK"
+2026-04-19 22:16:19,070 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8769353134:AAHB4LDYhJL8ayxjPFiznyNCdnmStPPau10/answerCallbackQuery "HTTP/1.1 200 OK"
+2026-04-19 22:16:19,345 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8769353134:AAHB4LDYhJL8ayxjPFiznyNCdnmStPPau10/editMessageText "HTTP/1.1 200 OK"
+2026-04-19 22:16:19,627 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8769353134:AAHB4LDYhJL8ayxjPFiznyNCdnmStPPau10/sendMessage "HTTP/1.1 200 OK"
+2026-04-19 22:16:20,674 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8769353134:AAHB4LDYhJL8ayxjPFiznyNCdnmStPPau10/sendMessage "HTTP/1.1 200 OK"
+2026-04-19 22:16:22,919 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8769353134:AAHB4LDYhJL8ayxjPFiznyNCdnmStPPau10/getUpdates "HTTP/1.1 200 OK"
+2026-04-19 22:16:23,250 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8769353134:AAHB4LDYhJL8ayxjPFiznyNCdnmStPPau10/answerCallbackQuery "HTTP/1.1 200 OK"
+2026-04-19 22:16:23,558 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8769353134:AAHB4LDYhJL8ayxjPFiznyNCdnmStPPau10/editMessageText "HTTP/1.1 200 OK"
+2026-04-19 22:16:33,208 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8769353134:AAHB4LDYhJL8ayxjPFiznyNCdnmStPPau10/getUpdates "HTTP/1.1 200 OK"
+2026-04-19 22:16:43,485 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8769353134:AAHB4LDYhJL8ayxjPFiznyNCdnmStPPau10/getUpdates "HTTP/1.1 200 OK"
+2026-04-19 22:16:53,762 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8769353134:AAHB4LDYhJL8ayxjPFiznyNCdnmStPPau10/getUpdates "HTTP/1.1 200 OK"
+2026-04-19 22:23:25,150 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8769353134:AAHB4LDYhJL8ayxjPFiznyNCdnmStPPau10/getMe "HTTP/1.1 200 OK"
+2026-04-19 22:23:25,921 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8769353134:AAHB4LDYhJL8ayxjPFiznyNCdnmStPPau10/deleteWebhook "HTTP/1.1 200 OK"
+2026-04-19 22:23:25,923 - telegram.ext.Application - INFO - Application started
+2026-04-19 22:23:37,251 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8769353134:AAHB4LDYhJL8ayxjPFiznyNCdnmStPPau10/getUpdates "HTTP/1.1 200 OK"
+2026-04-19 22:23:47,521 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8769353134:AAHB4LDYhJL8ayxjPFiznyNCdnmStPPau10/getUpdates "HTTP/1.1 200 OK"
+2026-04-19 22:23:52,677 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8769353134:AAHB4LDYhJL8ayxjPFiznyNCdnmStPPau10/getUpdates "HTTP/1.1 200 OK"
+2026-04-19 22:23:53,605 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8769353134:AAHB4LDYhJL8ayxjPFiznyNCdnmStPPau10/sendMessage "HTTP/1.1 200 OK"
+2026-04-19 22:24:01,049 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8769353134:AAHB4LDYhJL8ayxjPFiznyNCdnmStPPau10/getUpdates "HTTP/1.1 200 OK"
+2026-04-19 22:24:01,967 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8769353134:AAHB4LDYhJL8ayxjPFiznyNCdnmStPPau10/sendMessage "HTTP/1.1 200 OK"
+2026-04-19 22:24:05,243 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8769353134:AAHB4LDYhJL8ayxjPFiznyNCdnmStPPau10/getUpdates "HTTP/1.1 200 OK"
+2026-04-19 22:24:05,541 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8769353134:AAHB4LDYhJL8ayxjPFiznyNCdnmStPPau10/sendMessage "HTTP/1.1 200 OK"
+2026-04-19 22:24:07,849 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8769353134:AAHB4LDYhJL8ayxjPFiznyNCdnmStPPau10/getUpdates "HTTP/1.1 200 OK"
+2026-04-19 22:24:08,256 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8769353134:AAHB4LDYhJL8ayxjPFiznyNCdnmStPPau10/sendMessage "HTTP/1.1 200 OK"
+2026-04-19 22:24:16,753 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8769353134:AAHB4LDYhJL8ayxjPFiznyNCdnmStPPau10/getUpdates "HTTP/1.1 200 OK"
+2026-04-19 22:24:17,639 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8769353134:AAHB4LDYhJL8ayxjPFiznyNCdnmStPPau10/sendMessage "HTTP/1.1 200 OK"
+2026-04-19 22:24:17,642 - telethon.network.mtprotosender - INFO - Connecting to 91.108.56.146:443/TcpFull...
+2026-04-19 22:24:17,643 - telethon.network.mtprotosender - INFO - Connection to 91.108.56.146:443/TcpFull complete!
+2026-04-19 22:24:21,347 - telethon.network.mtprotosender - INFO - Disconnecting from 91.108.56.146:443/TcpFull...
+2026-04-19 22:24:21,347 - telethon.network.mtprotosender - INFO - Disconnection from 91.108.56.146:443/TcpFull complete!
+2026-04-19 22:24:21,659 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8769353134:AAHB4LDYhJL8ayxjPFiznyNCdnmStPPau10/sendMessage "HTTP/1.1 200 OK"
+2026-04-19 22:24:27,014 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8769353134:AAHB4LDYhJL8ayxjPFiznyNCdnmStPPau10/getUpdates "HTTP/1.1 200 OK"
+2026-04-19 22:24:37,271 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8769353134:AAHB4LDYhJL8ayxjPFiznyNCdnmStPPau10/getUpdates "HTTP/1.1 200 OK"
+2026-04-19 22:24:47,532 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8769353134:AAHB4LDYhJL8ayxjPFiznyNCdnmStPPau10/getUpdates "HTTP/1.1 200 OK"
+2026-04-19 22:24:48,441 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8769353134:AAHB4LDYhJL8ayxjPFiznyNCdnmStPPau10/getUpdates "HTTP/1.1 200 OK"
+2026-04-19 22:24:49,379 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8769353134:AAHB4LDYhJL8ayxjPFiznyNCdnmStPPau10/sendMessage "HTTP/1.1 200 OK"
+2026-04-19 22:24:55,236 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8769353134:AAHB4LDYhJL8ayxjPFiznyNCdnmStPPau10/getUpdates "HTTP/1.1 200 OK"
+2026-04-19 22:24:56,140 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8769353134:AAHB4LDYhJL8ayxjPFiznyNCdnmStPPau10/sendMessage "HTTP/1.1 200 OK"
+2026-04-19 22:24:59,530 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8769353134:AAHB4LDYhJL8ayxjPFiznyNCdnmStPPau10/getUpdates "HTTP/1.1 200 OK"
+2026-04-19 22:24:59,871 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8769353134:AAHB4LDYhJL8ayxjPFiznyNCdnmStPPau10/sendMessage "HTTP/1.1 200 OK"
+2026-04-19 22:25:02,600 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8769353134:AAHB4LDYhJL8ayxjPFiznyNCdnmStPPau10/getUpdates "HTTP/1.1 200 OK"
+2026-04-19 22:25:02,891 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8769353134:AAHB4LDYhJL8ayxjPFiznyNCdnmStPPau10/answerCallbackQuery "HTTP/1.1 200 OK"
+2026-04-19 22:25:02,892 - telegram.ext.Application - ERROR - No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "C:\Users\rusik\AppData\Local\Programs\Python\Python315\Lib\site-packages\telegram\ext\_application.py", line 1315, in process_update
+    await coroutine
+  File "C:\Users\rusik\AppData\Local\Programs\Python\Python315\Lib\site-packages\telegram\ext\_handlers\basehandler.py", line 159, in handle_update
+    return await self.callback(update, context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\rusik\Desktop\telegram_broadcaster\bot.py", line 140, in settings_callback
+    if not await is_authorized(query):
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\rusik\Desktop\telegram_broadcaster\bot.py", line 23, in is_authorized
+    return str(update.effective_chat.id) == CHAT_ID
+               ^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'CallbackQuery' object has no attribute 'effective_chat'
+2026-04-19 22:25:07,598 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8769353134:AAHB4LDYhJL8ayxjPFiznyNCdnmStPPau10/getUpdates "HTTP/1.1 200 OK"
+2026-04-19 22:25:07,890 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8769353134:AAHB4LDYhJL8ayxjPFiznyNCdnmStPPau10/answerCallbackQuery "HTTP/1.1 200 OK"
+2026-04-19 22:25:07,891 - telegram.ext.Application - ERROR - No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "C:\Users\rusik\AppData\Local\Programs\Python\Python315\Lib\site-packages\telegram\ext\_application.py", line 1315, in process_update
+    await coroutine
+  File "C:\Users\rusik\AppData\Local\Programs\Python\Python315\Lib\site-packages\telegram\ext\_handlers\basehandler.py", line 159, in handle_update
+    return await self.callback(update, context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\rusik\Desktop\telegram_broadcaster\bot.py", line 140, in settings_callback
+    if not await is_authorized(query):
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\rusik\Desktop\telegram_broadcaster\bot.py", line 23, in is_authorized
+    return str(update.effective_chat.id) == CHAT_ID
+               ^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'CallbackQuery' object has no attribute 'effective_chat'
+2026-04-19 22:25:10,191 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8769353134:AAHB4LDYhJL8ayxjPFiznyNCdnmStPPau10/getUpdates "HTTP/1.1 200 OK"
+2026-04-19 22:25:10,476 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8769353134:AAHB4LDYhJL8ayxjPFiznyNCdnmStPPau10/answerCallbackQuery "HTTP/1.1 200 OK"
+2026-04-19 22:25:10,477 - telegram.ext.Application - ERROR - No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "C:\Users\rusik\AppData\Local\Programs\Python\Python315\Lib\site-packages\telegram\ext\_application.py", line 1315, in process_update
+    await coroutine
+  File "C:\Users\rusik\AppData\Local\Programs\Python\Python315\Lib\site-packages\telegram\ext\_handlers\basehandler.py", line 159, in handle_update
+    return await self.callback(update, context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\rusik\Desktop\telegram_broadcaster\bot.py", line 140, in settings_callback
+    if not await is_authorized(query):
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\rusik\Desktop\telegram_broadcaster\bot.py", line 23, in is_authorized
+    return str(update.effective_chat.id) == CHAT_ID
+               ^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'CallbackQuery' object has no attribute 'effective_chat'
+2026-04-19 22:25:20,463 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8769353134:AAHB4LDYhJL8ayxjPFiznyNCdnmStPPau10/getUpdates "HTTP/1.1 200 OK"
+2026-04-19 22:25:30,719 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8769353134:AAHB4LDYhJL8ayxjPFiznyNCdnmStPPau10/getUpdates "HTTP/1.1 200 OK"
+2026-04-19 22:25:40,981 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8769353134:AAHB4LDYhJL8ayxjPFiznyNCdnmStPPau10/getUpdates "HTTP/1.1 200 OK"
+2026-04-19 22:25:51,243 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8769353134:AAHB4LDYhJL8ayxjPFiznyNCdnmStPPau10/getUpdates "HTTP/1.1 200 OK"
+2026-04-19 22:26:01,504 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8769353134:AAHB4LDYhJL8ayxjPFiznyNCdnmStPPau10/getUpdates "HTTP/1.1 200 OK"
+2026-04-19 22:26:11,767 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8769353134:AAHB4LDYhJL8ayxjPFiznyNCdnmStPPau10/getUpdates "HTTP/1.1 200 OK"
+2026-04-19 22:26:22,025 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8769353134:AAHB4LDYhJL8ayxjPFiznyNCdnmStPPau10/getUpdates "HTTP/1.1 200 OK"
+2026-04-19 22:26:32,740 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8769353134:AAHB4LDYhJL8ayxjPFiznyNCdnmStPPau10/getUpdates "HTTP/1.1 200 OK"
+2026-04-19 22:26:43,000 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8769353134:AAHB4LDYhJL8ayxjPFiznyNCdnmStPPau10/getUpdates "HTTP/1.1 200 OK"
+2026-04-19 22:26:53,259 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8769353134:AAHB4LDYhJL8ayxjPFiznyNCdnmStPPau10/getUpdates "HTTP/1.1 200 OK"
+2026-04-19 22:27:03,523 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8769353134:AAHB4LDYhJL8ayxjPFiznyNCdnmStPPau10/getUpdates "HTTP/1.1 200 OK"
+2026-04-19 22:27:13,790 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8769353134:AAHB4LDYhJL8ayxjPFiznyNCdnmStPPau10/getUpdates "HTTP/1.1 200 OK"
+2026-04-19 22:27:24,053 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8769353134:AAHB4LDYhJL8ayxjPFiznyNCdnmStPPau10/getUpdates "HTTP/1.1 200 OK"
+2026-04-19 22:27:34,312 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8769353134:AAHB4LDYhJL8ayxjPFiznyNCdnmStPPau10/getUpdates "HTTP/1.1 200 OK"
+2026-04-19 22:27:44,573 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8769353134:AAHB4LDYhJL8ayxjPFiznyNCdnmStPPau10/getUpdates "HTTP/1.1 200 OK"
+2026-04-19 22:27:54,846 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8769353134:AAHB4LDYhJL8ayxjPFiznyNCdnmStPPau10/getUpdates "HTTP/1.1 200 OK"
+2026-04-19 22:28:05,418 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8769353134:AAHB4LDYhJL8ayxjPFiznyNCdnmStPPau10/getUpdates "HTTP/1.1 200 OK"
+2026-04-19 22:28:12,300 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8769353134:AAHB4LDYhJL8ayxjPFiznyNCdnmStPPau10/getMe "HTTP/1.1 200 OK"
+2026-04-19 22:28:12,881 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8769353134:AAHB4LDYhJL8ayxjPFiznyNCdnmStPPau10/deleteWebhook "HTTP/1.1 200 OK"
+2026-04-19 22:28:12,882 - telegram.ext.Application - INFO - Application started
+2026-04-19 22:28:16,117 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8769353134:AAHB4LDYhJL8ayxjPFiznyNCdnmStPPau10/getUpdates "HTTP/1.1 200 OK"
+2026-04-19 22:28:16,418 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8769353134:AAHB4LDYhJL8ayxjPFiznyNCdnmStPPau10/sendMessage "HTTP/1.1 400 Bad Request"
+2026-04-19 22:28:16,419 - telegram.ext.Application - ERROR - No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "C:\Users\rusik\AppData\Local\Programs\Python\Python315\Lib\site-packages\telegram\ext\_application.py", line 1315, in process_update
+    await coroutine
+  File "C:\Users\rusik\AppData\Local\Programs\Python\Python315\Lib\site-packages\telegram\ext\_handlers\basehandler.py", line 159, in handle_update
+    return await self.callback(update, context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\rusik\Desktop\telegram_broadcaster\bot.py", line 47, in start
+    await update.message.reply_text(text, parse_mode='Markdown')
+  File "C:\Users\rusik\AppData\Local\Programs\Python\Python315\Lib\site-packages\telegram\_message.py", line 2106, in reply_text
+    return await self.get_bot().send_message(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<21 lines>...
+    )
+    ^
+  File "C:\Users\rusik\AppData\Local\Programs\Python\Python315\Lib\site-packages\telegram\ext\_extbot.py", line 3118, in send_message
+    return await super().send_message(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<23 lines>...
+    )
+    ^
+  File "C:\Users\rusik\AppData\Local\Programs\Python\Python315\Lib\site-packages\telegram\_bot.py", line 1123, in send_message
+    return await self._send_message(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<21 lines>...
+    )
+    ^
+  File "C:\Users\rusik\AppData\Local\Programs\Python\Python315\Lib\site-packages\telegram\ext\_extbot.py", line 630, in _send_message
+    result = await super()._send_message(
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<23 lines>...
+    )
+    ^
+  File "C:\Users\rusik\AppData\Local\Programs\Python\Python315\Lib\site-packages\telegram\_bot.py", line 820, in _send_message
+    result = await self._post(
+             ^^^^^^^^^^^^^^^^^
+    ...<7 lines>...
+    )
+    ^
+  File "C:\Users\rusik\AppData\Local\Programs\Python\Python315\Lib\site-packages\telegram\_bot.py", line 704, in _post
+    return await self._do_post(
+           ^^^^^^^^^^^^^^^^^^^^
+    ...<6 lines>...
+    )
+    ^
+  File "C:\Users\rusik\AppData\Local\Programs\Python\Python315\Lib\site-packages\telegram\ext\_extbot.py", line 370, in _do_post
+    return await super()._do_post(
+           ^^^^^^^^^^^^^^^^^^^^^^^
+    ...<6 lines>...
+    )
+    ^
+  File "C:\Users\rusik\AppData\Local\Programs\Python\Python315\Lib\site-packages\telegram\_bot.py", line 733, in _do_post
+    result = await request.post(
+             ^^^^^^^^^^^^^^^^^^^
+    ...<6 lines>...
+    )
+    ^
+  File "C:\Users\rusik\AppData\Local\Programs\Python\Python315\Lib\site-packages\telegram\request\_baserequest.py", line 198, in post
+    result = await self._request_wrapper(
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<7 lines>...
+    )
+    ^
+  File "C:\Users\rusik\AppData\Local\Programs\Python\Python315\Lib\site-packages\telegram\request\_baserequest.py", line 375, in _request_wrapper
+    raise exception
+telegram.error.BadRequest: Can't parse entities: can't find end of the entity starting at byte offset 581
+2026-04-19 22:28:26,429 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8769353134:AAHB4LDYhJL8ayxjPFiznyNCdnmStPPau10/getUpdates "HTTP/1.1 200 OK"
+2026-04-19 22:28:36,719 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8769353134:AAHB4LDYhJL8ayxjPFiznyNCdnmStPPau10/getUpdates "HTTP/1.1 200 OK"
+2026-04-19 22:28:46,997 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8769353134:AAHB4LDYhJL8ayxjPFiznyNCdnmStPPau10/getUpdates "HTTP/1.1 200 OK"
+2026-04-19 22:28:57,274 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8769353134:AAHB4LDYhJL8ayxjPFiznyNCdnmStPPau10/getUpdates "HTTP/1.1 200 OK"
+2026-04-19 22:29:07,552 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8769353134:AAHB4LDYhJL8ayxjPFiznyNCdnmStPPau10/getUpdates "HTTP/1.1 200 OK"
+2026-04-19 22:29:17,829 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8769353134:AAHB4LDYhJL8ayxjPFiznyNCdnmStPPau10/getUpdates "HTTP/1.1 200 OK"
+2026-04-19 22:29:28,105 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8769353134:AAHB4LDYhJL8ayxjPFiznyNCdnmStPPau10/getUpdates "HTTP/1.1 200 OK"
+2026-04-19 22:29:38,379 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8769353134:AAHB4LDYhJL8ayxjPFiznyNCdnmStPPau10/getUpdates "HTTP/1.1 200 OK"
+2026-04-19 22:29:48,654 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8769353134:AAHB4LDYhJL8ayxjPFiznyNCdnmStPPau10/getUpdates "HTTP/1.1 200 OK"
+2026-04-19 22:29:59,226 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8769353134:AAHB4LDYhJL8ayxjPFiznyNCdnmStPPau10/getUpdates "HTTP/1.1 200 OK"
+2026-04-19 22:30:09,505 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8769353134:AAHB4LDYhJL8ayxjPFiznyNCdnmStPPau10/getUpdates "HTTP/1.1 200 OK"
+2026-04-19 22:30:19,780 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8769353134:AAHB4LDYhJL8ayxjPFiznyNCdnmStPPau10/getUpdates "HTTP/1.1 200 OK"
+2026-04-19 22:30:30,060 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8769353134:AAHB4LDYhJL8ayxjPFiznyNCdnmStPPau10/getUpdates "HTTP/1.1 200 OK"
+2026-04-19 22:30:40,337 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8769353134:AAHB4LDYhJL8ayxjPFiznyNCdnmStPPau10/getUpdates "HTTP/1.1 200 OK"
+2026-04-19 22:30:50,614 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8769353134:AAHB4LDYhJL8ayxjPFiznyNCdnmStPPau10/getUpdates "HTTP/1.1 200 OK"
+2026-04-19 22:31:00,890 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8769353134:AAHB4LDYhJL8ayxjPFiznyNCdnmStPPau10/getUpdates "HTTP/1.1 200 OK"
+2026-04-19 22:31:11,168 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8769353134:AAHB4LDYhJL8ayxjPFiznyNCdnmStPPau10/getUpdates "HTTP/1.1 200 OK"
+2026-04-19 22:31:19,039 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8769353134:AAHB4LDYhJL8ayxjPFiznyNCdnmStPPau10/getUpdates "HTTP/1.1 200 OK"
+2026-04-19 22:31:19,040 - telegram.ext.Application - INFO - Application is stopping. This might take a moment.
+2026-04-19 22:31:19,040 - telegram.ext.Application - INFO - Application.stop() complete
+2026-04-19 22:31:22,542 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8769353134:AAHB4LDYhJL8ayxjPFiznyNCdnmStPPau10/getMe "HTTP/1.1 200 OK"
+2026-04-19 22:31:22,801 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8769353134:AAHB4LDYhJL8ayxjPFiznyNCdnmStPPau10/deleteWebhook "HTTP/1.1 200 OK"
+2026-04-19 22:31:22,803 - telegram.ext.Application - INFO - Application started
+2026-04-19 22:31:27,571 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8769353134:AAHB4LDYhJL8ayxjPFiznyNCdnmStPPau10/getUpdates "HTTP/1.1 200 OK"
+2026-04-19 22:31:27,888 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8769353134:AAHB4LDYhJL8ayxjPFiznyNCdnmStPPau10/sendMessage "HTTP/1.1 200 OK"
+2026-04-19 22:31:32,717 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8769353134:AAHB4LDYhJL8ayxjPFiznyNCdnmStPPau10/getUpdates "HTTP/1.1 200 OK"
+2026-04-19 22:31:33,028 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8769353134:AAHB4LDYhJL8ayxjPFiznyNCdnmStPPau10/sendMessage "HTTP/1.1 200 OK"
+2026-04-19 22:31:35,099 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8769353134:AAHB4LDYhJL8ayxjPFiznyNCdnmStPPau10/getUpdates "HTTP/1.1 200 OK"
+2026-04-19 22:31:35,372 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8769353134:AAHB4LDYhJL8ayxjPFiznyNCdnmStPPau10/answerCallbackQuery "HTTP/1.1 200 OK"
+2026-04-19 22:31:35,653 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8769353134:AAHB4LDYhJL8ayxjPFiznyNCdnmStPPau10/editMessageText "HTTP/1.1 200 OK"
+2026-04-19 22:31:45,391 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8769353134:AAHB4LDYhJL8ayxjPFiznyNCdnmStPPau10/getUpdates "HTTP/1.1 200 OK"
+2026-04-19 22:31:55,679 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8769353134:AAHB4LDYhJL8ayxjPFiznyNCdnmStPPau10/getUpdates "HTTP/1.1 200 OK"
+2026-04-19 22:32:06,271 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8769353134:AAHB4LDYhJL8ayxjPFiznyNCdnmStPPau10/getUpdates "HTTP/1.1 200 OK"
+2026-04-19 22:32:16,556 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8769353134:AAHB4LDYhJL8ayxjPFiznyNCdnmStPPau10/getUpdates "HTTP/1.1 200 OK"
+2026-04-19 22:32:26,835 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8769353134:AAHB4LDYhJL8ayxjPFiznyNCdnmStPPau10/getUpdates "HTTP/1.1 200 OK"
+2026-04-19 22:32:37,129 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8769353134:AAHB4LDYhJL8ayxjPFiznyNCdnmStPPau10/getUpdates "HTTP/1.1 200 OK"
+2026-04-19 22:32:41,980 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8769353134:AAHB4LDYhJL8ayxjPFiznyNCdnmStPPau10/getUpdates "HTTP/1.1 200 OK"
+2026-04-19 22:32:52,256 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8769353134:AAHB4LDYhJL8ayxjPFiznyNCdnmStPPau10/getUpdates "HTTP/1.1 200 OK"
+2026-04-19 22:33:02,536 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8769353134:AAHB4LDYhJL8ayxjPFiznyNCdnmStPPau10/getUpdates "HTTP/1.1 200 OK"
+2026-04-19 22:33:12,816 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8769353134:AAHB4LDYhJL8ayxjPFiznyNCdnmStPPau10/getUpdates "HTTP/1.1 200 OK"
+2026-04-19 22:33:23,095 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8769353134:AAHB4LDYhJL8ayxjPFiznyNCdnmStPPau10/getUpdates "HTTP/1.1 200 OK"
+2026-04-19 22:33:33,384 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8769353134:AAHB4LDYhJL8ayxjPFiznyNCdnmStPPau10/getUpdates "HTTP/1.1 200 OK"
+2026-04-19 22:33:43,662 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8769353134:AAHB4LDYhJL8ayxjPFiznyNCdnmStPPau10/getUpdates "HTTP/1.1 200 OK"
+2026-04-19 22:33:53,939 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8769353134:AAHB4LDYhJL8ayxjPFiznyNCdnmStPPau10/getUpdates "HTTP/1.1 200 OK"
+2026-04-19 22:34:04,221 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8769353134:AAHB4LDYhJL8ayxjPFiznyNCdnmStPPau10/getUpdates "HTTP/1.1 200 OK"
+2026-04-19 22:34:14,502 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8769353134:AAHB4LDYhJL8ayxjPFiznyNCdnmStPPau10/getUpdates "HTTP/1.1 200 OK"
+2026-04-19 22:34:18,074 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8769353134:AAHB4LDYhJL8ayxjPFiznyNCdnmStPPau10/getUpdates "HTTP/1.1 200 OK"
+2026-04-19 22:34:20,404 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8769353134:AAHB4LDYhJL8ayxjPFiznyNCdnmStPPau10/sendMessage "HTTP/1.1 200 OK"
+2026-04-19 22:34:28,238 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8769353134:AAHB4LDYhJL8ayxjPFiznyNCdnmStPPau10/getUpdates "HTTP/1.1 200 OK"
+2026-04-19 22:34:29,145 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8769353134:AAHB4LDYhJL8ayxjPFiznyNCdnmStPPau10/answerCallbackQuery "HTTP/1.1 200 OK"
+2026-04-19 22:34:29,428 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8769353134:AAHB4LDYhJL8ayxjPFiznyNCdnmStPPau10/editMessageText "HTTP/1.1 200 OK"
+2026-04-19 22:34:33,579 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8769353134:AAHB4LDYhJL8ayxjPFiznyNCdnmStPPau10/getUpdates "HTTP/1.1 200 OK"
+2026-04-19 22:34:33,919 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8769353134:AAHB4LDYhJL8ayxjPFiznyNCdnmStPPau10/sendMessage "HTTP/1.1 200 OK"
+2026-04-19 22:34:36,056 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8769353134:AAHB4LDYhJL8ayxjPFiznyNCdnmStPPau10/getUpdates "HTTP/1.1 200 OK"
+2026-04-19 22:34:36,326 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8769353134:AAHB4LDYhJL8ayxjPFiznyNCdnmStPPau10/answerCallbackQuery "HTTP/1.1 200 OK"
+2026-04-19 22:34:37,045 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8769353134:AAHB4LDYhJL8ayxjPFiznyNCdnmStPPau10/editMessageText "HTTP/1.1 200 OK"
+2026-04-19 22:34:46,344 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8769353134:AAHB4LDYhJL8ayxjPFiznyNCdnmStPPau10/getUpdates "HTTP/1.1 200 OK"
+2026-04-19 22:34:49,064 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8769353134:AAHB4LDYhJL8ayxjPFiznyNCdnmStPPau10/getUpdates "HTTP/1.1 200 OK"
+2026-04-19 22:34:50,031 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8769353134:AAHB4LDYhJL8ayxjPFiznyNCdnmStPPau10/sendMessage "HTTP/1.1 200 OK"
+2026-04-19 22:34:53,273 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8769353134:AAHB4LDYhJL8ayxjPFiznyNCdnmStPPau10/getUpdates "HTTP/1.1 200 OK"
+2026-04-19 22:34:53,553 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8769353134:AAHB4LDYhJL8ayxjPFiznyNCdnmStPPau10/answerCallbackQuery "HTTP/1.1 200 OK"
+2026-04-19 22:34:53,844 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8769353134:AAHB4LDYhJL8ayxjPFiznyNCdnmStPPau10/editMessageText "HTTP/1.1 200 OK"
+2026-04-19 22:34:53,869 - telethon.network.mtprotosender - INFO - Connecting to 91.108.56.146:443/TcpFull...
+2026-04-19 22:34:53,870 - telethon.network.mtprotosender - INFO - Connection to 91.108.56.146:443/TcpFull complete!
+2026-04-19 22:34:56,396 - src.broadcaster - INFO - 🚀 Начинаем рассылку по списку из файла chats.txt (6 ссылок)
+2026-04-19 22:34:57,696 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8769353134:AAHB4LDYhJL8ayxjPFiznyNCdnmStPPau10/sendMessage "HTTP/1.1 200 OK"
+2026-04-19 22:35:03,773 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8769353134:AAHB4LDYhJL8ayxjPFiznyNCdnmStPPau10/getUpdates "HTTP/1.1 200 OK"
+2026-04-19 22:35:11,655 - src.broadcaster - INFO - ✓ Отправлено в Взаимные отзывы Авито
+2026-04-19 22:35:12,492 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8769353134:AAHB4LDYhJL8ayxjPFiznyNCdnmStPPau10/sendMessage "HTTP/1.1 200 OK"
+2026-04-19 22:35:14,064 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8769353134:AAHB4LDYhJL8ayxjPFiznyNCdnmStPPau10/getUpdates "HTTP/1.1 200 OK"
+2026-04-19 22:35:24,345 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8769353134:AAHB4LDYhJL8ayxjPFiznyNCdnmStPPau10/getUpdates "HTTP/1.1 200 OK"
+2026-04-19 22:35:34,626 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8769353134:AAHB4LDYhJL8ayxjPFiznyNCdnmStPPau10/getUpdates "HTTP/1.1 200 OK"
+2026-04-19 22:35:42,345 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8769353134:AAHB4LDYhJL8ayxjPFiznyNCdnmStPPau10/getUpdates "HTTP/1.1 200 OK"
+2026-04-19 22:35:45,506 - src.broadcaster - INFO - ❌ Ошибка отправки в Фриланс/чат: You're banned from sending messages in supergroups/channels (caused by SendMessageRequest)
+2026-04-19 22:35:46,388 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8769353134:AAHB4LDYhJL8ayxjPFiznyNCdnmStPPau10/sendMessage "HTTP/1.1 200 OK"
+2026-04-19 22:35:50,734 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8769353134:AAHB4LDYhJL8ayxjPFiznyNCdnmStPPau10/getUpdates "HTTP/1.1 200 OK"
+2026-04-19 22:36:01,012 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8769353134:AAHB4LDYhJL8ayxjPFiznyNCdnmStPPau10/getUpdates "HTTP/1.1 200 OK"
+2026-04-19 22:36:05,260 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8769353134:AAHB4LDYhJL8ayxjPFiznyNCdnmStPPau10/getUpdates "HTTP/1.1 200 OK"
+2026-04-19 22:36:07,450 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8769353134:AAHB4LDYhJL8ayxjPFiznyNCdnmStPPau10/getUpdates "HTTP/1.1 200 OK"
+2026-04-19 22:36:17,735 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8769353134:AAHB4LDYhJL8ayxjPFiznyNCdnmStPPau10/getUpdates "HTTP/1.1 200 OK"
+2026-04-19 22:36:28,016 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8769353134:AAHB4LDYhJL8ayxjPFiznyNCdnmStPPau10/getUpdates "HTTP/1.1 200 OK"
+2026-04-19 22:39:08,202 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8769353134:AAHB4LDYhJL8ayxjPFiznyNCdnmStPPau10/getMe "HTTP/1.1 200 OK"
+2026-04-19 22:39:08,467 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8769353134:AAHB4LDYhJL8ayxjPFiznyNCdnmStPPau10/deleteWebhook "HTTP/1.1 200 OK"
+2026-04-19 22:39:08,468 - telegram.ext.Application - INFO - Application started
+2026-04-19 22:39:12,488 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8769353134:AAHB4LDYhJL8ayxjPFiznyNCdnmStPPau10/getUpdates "HTTP/1.1 200 OK"
+2026-04-19 22:39:12,789 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8769353134:AAHB4LDYhJL8ayxjPFiznyNCdnmStPPau10/sendMessage "HTTP/1.1 200 OK"
+2026-04-19 22:39:15,594 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8769353134:AAHB4LDYhJL8ayxjPFiznyNCdnmStPPau10/getUpdates "HTTP/1.1 200 OK"
+2026-04-19 22:39:15,875 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8769353134:AAHB4LDYhJL8ayxjPFiznyNCdnmStPPau10/answerCallbackQuery "HTTP/1.1 200 OK"
+2026-04-19 22:39:16,166 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8769353134:AAHB4LDYhJL8ayxjPFiznyNCdnmStPPau10/editMessageText "HTTP/1.1 200 OK"
+2026-04-19 22:39:16,465 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8769353134:AAHB4LDYhJL8ayxjPFiznyNCdnmStPPau10/editMessageText "HTTP/1.1 200 OK"
+2026-04-19 22:39:19,518 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8769353134:AAHB4LDYhJL8ayxjPFiznyNCdnmStPPau10/getUpdates "HTTP/1.1 200 OK"
+2026-04-19 22:39:19,799 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8769353134:AAHB4LDYhJL8ayxjPFiznyNCdnmStPPau10/answerCallbackQuery "HTTP/1.1 200 OK"
+2026-04-19 22:39:20,096 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8769353134:AAHB4LDYhJL8ayxjPFiznyNCdnmStPPau10/editMessageText "HTTP/1.1 200 OK"
+2026-04-19 22:39:20,396 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8769353134:AAHB4LDYhJL8ayxjPFiznyNCdnmStPPau10/editMessageText "HTTP/1.1 200 OK"
+2026-04-19 22:39:21,995 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8769353134:AAHB4LDYhJL8ayxjPFiznyNCdnmStPPau10/getUpdates "HTTP/1.1 200 OK"
+2026-04-19 22:39:22,292 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8769353134:AAHB4LDYhJL8ayxjPFiznyNCdnmStPPau10/answerCallbackQuery "HTTP/1.1 200 OK"
+2026-04-19 22:39:22,583 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8769353134:AAHB4LDYhJL8ayxjPFiznyNCdnmStPPau10/editMessageText "HTTP/1.1 200 OK"
+2026-04-19 22:39:22,891 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8769353134:AAHB4LDYhJL8ayxjPFiznyNCdnmStPPau10/editMessageText "HTTP/1.1 200 OK"
+2026-04-19 22:39:24,160 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8769353134:AAHB4LDYhJL8ayxjPFiznyNCdnmStPPau10/getUpdates "HTTP/1.1 200 OK"
+2026-04-19 22:39:24,446 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8769353134:AAHB4LDYhJL8ayxjPFiznyNCdnmStPPau10/answerCallbackQuery "HTTP/1.1 200 OK"
+2026-04-19 22:39:25,215 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8769353134:AAHB4LDYhJL8ayxjPFiznyNCdnmStPPau10/editMessageText "HTTP/1.1 200 OK"
+2026-04-19 22:39:25,543 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8769353134:AAHB4LDYhJL8ayxjPFiznyNCdnmStPPau10/editMessageText "HTTP/1.1 200 OK"
+2026-04-19 22:39:31,645 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8769353134:AAHB4LDYhJL8ayxjPFiznyNCdnmStPPau10/getUpdates "HTTP/1.1 200 OK"
+2026-04-19 22:39:31,646 - telegram.ext.Application - INFO - Application is stopping. This might take a moment.
+2026-04-19 22:39:31,646 - telegram.ext.Application - INFO - Application.stop() complete
+2026-04-19 22:41:12,962 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8769353134:AAHB4LDYhJL8ayxjPFiznyNCdnmStPPau10/getMe "HTTP/1.1 200 OK"
+2026-04-19 22:41:13,237 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8769353134:AAHB4LDYhJL8ayxjPFiznyNCdnmStPPau10/deleteWebhook "HTTP/1.1 200 OK"
+2026-04-19 22:41:13,239 - telegram.ext.Application - INFO - Application started
+2026-04-19 22:41:15,215 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8769353134:AAHB4LDYhJL8ayxjPFiznyNCdnmStPPau10/getUpdates "HTTP/1.1 200 OK"
+2026-04-19 22:41:17,695 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8769353134:AAHB4LDYhJL8ayxjPFiznyNCdnmStPPau10/getUpdates "HTTP/1.1 200 OK"
+2026-04-19 22:41:18,337 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8769353134:AAHB4LDYhJL8ayxjPFiznyNCdnmStPPau10/sendMessage "HTTP/1.1 200 OK"
+2026-04-19 22:41:22,029 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8769353134:AAHB4LDYhJL8ayxjPFiznyNCdnmStPPau10/getUpdates "HTTP/1.1 200 OK"
+2026-04-19 22:41:22,346 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8769353134:AAHB4LDYhJL8ayxjPFiznyNCdnmStPPau10/sendMessage "HTTP/1.1 200 OK"
+2026-04-19 22:41:27,508 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8769353134:AAHB4LDYhJL8ayxjPFiznyNCdnmStPPau10/getUpdates "HTTP/1.1 200 OK"
+2026-04-19 22:41:28,506 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8769353134:AAHB4LDYhJL8ayxjPFiznyNCdnmStPPau10/sendMessage "HTTP/1.1 200 OK"
+2026-04-19 22:41:34,131 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8769353134:AAHB4LDYhJL8ayxjPFiznyNCdnmStPPau10/getUpdates "HTTP/1.1 200 OK"
+2026-04-19 22:41:35,130 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8769353134:AAHB4LDYhJL8ayxjPFiznyNCdnmStPPau10/sendMessage "HTTP/1.1 200 OK"
+2026-04-19 22:41:35,156 - telethon.network.mtprotosender - INFO - Connecting to 91.108.56.146:443/TcpFull...
+2026-04-19 22:41:35,156 - telethon.network.mtprotosender - INFO - Connection to 91.108.56.146:443/TcpFull complete!
+2026-04-19 22:41:37,700 - src.broadcaster - INFO - 🚀 Начинаем рассылку по списку из файла chats.txt (6 ссылок)
+2026-04-19 22:41:38,561 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8769353134:AAHB4LDYhJL8ayxjPFiznyNCdnmStPPau10/sendMessage "HTTP/1.1 200 OK"
+2026-04-19 22:41:44,415 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8769353134:AAHB4LDYhJL8ayxjPFiznyNCdnmStPPau10/getUpdates "HTTP/1.1 200 OK"
+2026-04-19 22:41:49,775 - src.broadcaster - INFO - ✓ Отправлено в Взаимные отзывы Авито
+2026-04-19 22:41:51,643 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8769353134:AAHB4LDYhJL8ayxjPFiznyNCdnmStPPau10/sendMessage "HTTP/1.1 200 OK"
+2026-04-19 22:41:54,711 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8769353134:AAHB4LDYhJL8ayxjPFiznyNCdnmStPPau10/getUpdates "HTTP/1.1 200 OK"
+2026-04-19 22:42:04,992 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8769353134:AAHB4LDYhJL8ayxjPFiznyNCdnmStPPau10/getUpdates "HTTP/1.1 200 OK"
+2026-04-19 22:42:15,270 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8769353134:AAHB4LDYhJL8ayxjPFiznyNCdnmStPPau10/getUpdates "HTTP/1.1 200 OK"
+2026-04-19 22:42:25,551 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8769353134:AAHB4LDYhJL8ayxjPFiznyNCdnmStPPau10/getUpdates "HTTP/1.1 200 OK"
+2026-04-19 22:42:33,012 - src.broadcaster - INFO - ❌ Ошибка отправки в Фриланс/чат: You're banned from sending messages in supergroups/channels (caused by SendMessageRequest)
+2026-04-19 22:42:34,156 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8769353134:AAHB4LDYhJL8ayxjPFiznyNCdnmStPPau10/sendMessage "HTTP/1.1 200 OK"
+2026-04-19 22:42:35,828 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8769353134:AAHB4LDYhJL8ayxjPFiznyNCdnmStPPau10/getUpdates "HTTP/1.1 200 OK"
+2026-04-19 22:42:46,410 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8769353134:AAHB4LDYhJL8ayxjPFiznyNCdnmStPPau10/getUpdates "HTTP/1.1 200 OK"
+2026-04-19 22:42:51,717 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8769353134:AAHB4LDYhJL8ayxjPFiznyNCdnmStPPau10/getUpdates "HTTP/1.1 200 OK"
+2026-04-19 22:43:01,997 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8769353134:AAHB4LDYhJL8ayxjPFiznyNCdnmStPPau10/getUpdates "HTTP/1.1 200 OK"
+2026-04-19 22:43:12,289 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8769353134:AAHB4LDYhJL8ayxjPFiznyNCdnmStPPau10/getUpdates "HTTP/1.1 200 OK"
+2026-04-19 22:43:14,821 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8769353134:AAHB4LDYhJL8ayxjPFiznyNCdnmStPPau10/getUpdates "HTTP/1.1 200 OK"
+2026-04-19 22:43:25,102 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8769353134:AAHB4LDYhJL8ayxjPFiznyNCdnmStPPau10/getUpdates "HTTP/1.1 200 OK"
+2026-04-19 22:43:35,383 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8769353134:AAHB4LDYhJL8ayxjPFiznyNCdnmStPPau10/getUpdates "HTTP/1.1 200 OK"
+2026-04-19 22:43:38,117 - src.broadcaster - INFO - ❌ Ошибка отправки в ФРИЛАНС / ОБМЕН ОТЗЫВАМИ: You're banned from sending messages in supergroups/channels (caused by SendMessageRequest)
+2026-04-19 22:43:39,023 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8769353134:AAHB4LDYhJL8ayxjPFiznyNCdnmStPPau10/sendMessage "HTTP/1.1 200 OK"
+2026-04-19 22:43:45,662 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8769353134:AAHB4LDYhJL8ayxjPFiznyNCdnmStPPau10/getUpdates "HTTP/1.1 200 OK"
+2026-04-19 22:43:56,270 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8769353134:AAHB4LDYhJL8ayxjPFiznyNCdnmStPPau10/getUpdates "HTTP/1.1 200 OK"
+2026-04-19 22:44:06,872 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8769353134:AAHB4LDYhJL8ayxjPFiznyNCdnmStPPau10/getUpdates "HTTP/1.1 200 OK"
+2026-04-19 22:44:17,171 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8769353134:AAHB4LDYhJL8ayxjPFiznyNCdnmStPPau10/getUpdates "HTTP/1.1 200 OK"
+2026-04-19 22:44:26,417 - src.broadcaster - INFO - ✓ Отправлено в ФРИЛАНС 1.0
+2026-04-19 22:44:27,451 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8769353134:AAHB4LDYhJL8ayxjPFiznyNCdnmStPPau10/getUpdates "HTTP/1.1 200 OK"
+2026-04-19 22:44:27,619 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8769353134:AAHB4LDYhJL8ayxjPFiznyNCdnmStPPau10/sendMessage "HTTP/1.1 200 OK"
+2026-04-19 22:44:37,728 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8769353134:AAHB4LDYhJL8ayxjPFiznyNCdnmStPPau10/getUpdates "HTTP/1.1 200 OK"
+2026-04-19 22:44:48,006 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8769353134:AAHB4LDYhJL8ayxjPFiznyNCdnmStPPau10/getUpdates "HTTP/1.1 200 OK"
+2026-04-19 22:44:58,287 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8769353134:AAHB4LDYhJL8ayxjPFiznyNCdnmStPPau10/getUpdates "HTTP/1.1 200 OK"
+2026-04-19 22:45:00,892 - src.broadcaster - INFO - ✓ Отправлено в Обмен отзывами | взаимные отзывы
+2026-04-19 22:45:01,804 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8769353134:AAHB4LDYhJL8ayxjPFiznyNCdnmStPPau10/sendMessage "HTTP/1.1 200 OK"
+2026-04-19 22:45:08,567 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8769353134:AAHB4LDYhJL8ayxjPFiznyNCdnmStPPau10/getUpdates "HTTP/1.1 200 OK"
+2026-04-19 22:45:19,186 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8769353134:AAHB4LDYhJL8ayxjPFiznyNCdnmStPPau10/getUpdates "HTTP/1.1 200 OK"
+2026-04-19 22:45:29,464 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8769353134:AAHB4LDYhJL8ayxjPFiznyNCdnmStPPau10/getUpdates "HTTP/1.1 200 OK"
+2026-04-19 22:45:39,744 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8769353134:AAHB4LDYhJL8ayxjPFiznyNCdnmStPPau10/getUpdates "HTTP/1.1 200 OK"
+2026-04-19 22:45:50,023 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8769353134:AAHB4LDYhJL8ayxjPFiznyNCdnmStPPau10/getUpdates "HTTP/1.1 200 OK"
+2026-04-19 22:46:00,299 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8769353134:AAHB4LDYhJL8ayxjPFiznyNCdnmStPPau10/getUpdates "HTTP/1.1 200 OK"
+2026-04-19 22:46:05,402 - src.broadcaster - INFO - ✓ Отправлено в ВП | Взаимные подписки
+2026-04-19 22:46:06,279 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8769353134:AAHB4LDYhJL8ayxjPFiznyNCdnmStPPau10/sendMessage "HTTP/1.1 200 OK"
+2026-04-19 22:46:10,578 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8769353134:AAHB4LDYhJL8ayxjPFiznyNCdnmStPPau10/getUpdates "HTTP/1.1 200 OK"
+2026-04-19 22:46:20,856 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8769353134:AAHB4LDYhJL8ayxjPFiznyNCdnmStPPau10/getUpdates "HTTP/1.1 200 OK"
+2026-04-19 22:46:31,135 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8769353134:AAHB4LDYhJL8ayxjPFiznyNCdnmStPPau10/getUpdates "HTTP/1.1 200 OK"
+2026-04-19 22:46:36,306 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8769353134:AAHB4LDYhJL8ayxjPFiznyNCdnmStPPau10/sendMessage "HTTP/1.1 200 OK"
+2026-04-19 22:46:36,307 - src.broadcaster - INFO - ✅ Рассылка завершена. Отправлено 4 сообщений.
+2026-04-19 22:46:36,308 - telethon.network.mtprotosender - INFO - Disconnecting from 91.108.56.146:443/TcpFull...
+2026-04-19 22:46:36,309 - telethon.network.mtprotosender - INFO - Disconnection from 91.108.56.146:443/TcpFull complete!
+2026-04-19 22:46:36,594 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8769353134:AAHB4LDYhJL8ayxjPFiznyNCdnmStPPau10/sendMessage "HTTP/1.1 200 OK"
+2026-04-19 22:46:37,292 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8769353134:AAHB4LDYhJL8ayxjPFiznyNCdnmStPPau10/sendMessage "HTTP/1.1 200 OK"
+2026-04-19 22:46:37,583 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8769353134:AAHB4LDYhJL8ayxjPFiznyNCdnmStPPau10/sendMessage "HTTP/1.1 200 OK"
+2026-04-19 22:46:37,875 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8769353134:AAHB4LDYhJL8ayxjPFiznyNCdnmStPPau10/sendMessage "HTTP/1.1 200 OK"
+2026-04-19 22:46:41,413 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8769353134:AAHB4LDYhJL8ayxjPFiznyNCdnmStPPau10/getUpdates "HTTP/1.1 200 OK"
+2026-04-19 22:46:48,430 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8769353134:AAHB4LDYhJL8ayxjPFiznyNCdnmStPPau10/getUpdates "HTTP/1.1 200 OK"
+2026-04-19 22:46:49,730 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8769353134:AAHB4LDYhJL8ayxjPFiznyNCdnmStPPau10/sendMessage "HTTP/1.1 200 OK"
+2026-04-19 22:46:59,046 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8769353134:AAHB4LDYhJL8ayxjPFiznyNCdnmStPPau10/getUpdates "HTTP/1.1 200 OK"
+2026-04-19 22:47:04,910 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8769353134:AAHB4LDYhJL8ayxjPFiznyNCdnmStPPau10/getUpdates "HTTP/1.1 200 OK"
+2026-04-19 22:47:05,881 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8769353134:AAHB4LDYhJL8ayxjPFiznyNCdnmStPPau10/sendMessage "HTTP/1.1 200 OK"
+2026-04-19 22:49:45,694 - telethon.network.mtprotosender - INFO - Connecting to 91.108.56.146:443/TcpFull...
+2026-04-19 22:49:45,695 - telethon.network.mtprotosender - INFO - Connection to 91.108.56.146:443/TcpFull complete!
+2026-04-19 22:49:48,597 - src.broadcaster - INFO - 🚀 Начинаем рассылку по списку из файла chats.txt (6 ссылок)
+2026-04-19 22:49:49,559 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8769353134:AAHB4LDYhJL8ayxjPFiznyNCdnmStPPau10/sendMessage "HTTP/1.1 200 OK"
+2026-04-19 22:53:09,133 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8769353134:AAHB4LDYhJL8ayxjPFiznyNCdnmStPPau10/getMe "HTTP/1.1 200 OK"
+2026-04-19 22:53:09,494 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8769353134:AAHB4LDYhJL8ayxjPFiznyNCdnmStPPau10/deleteWebhook "HTTP/1.1 200 OK"
+2026-04-19 22:53:09,496 - telegram.ext.Application - INFO - Application started
+2026-04-19 22:53:14,088 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8769353134:AAHB4LDYhJL8ayxjPFiznyNCdnmStPPau10/getUpdates "HTTP/1.1 200 OK"
+2026-04-19 22:53:14,427 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8769353134:AAHB4LDYhJL8ayxjPFiznyNCdnmStPPau10/sendMessage "HTTP/1.1 200 OK"
+2026-04-19 22:53:19,804 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8769353134:AAHB4LDYhJL8ayxjPFiznyNCdnmStPPau10/getUpdates "HTTP/1.1 200 OK"
+2026-04-19 22:53:20,845 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8769353134:AAHB4LDYhJL8ayxjPFiznyNCdnmStPPau10/sendMessage "HTTP/1.1 200 OK"
+2026-04-19 22:53:25,564 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8769353134:AAHB4LDYhJL8ayxjPFiznyNCdnmStPPau10/getUpdates "HTTP/1.1 200 OK"
+2026-04-19 22:53:25,858 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8769353134:AAHB4LDYhJL8ayxjPFiznyNCdnmStPPau10/sendMessage "HTTP/1.1 200 OK"
+2026-04-19 22:53:28,826 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8769353134:AAHB4LDYhJL8ayxjPFiznyNCdnmStPPau10/getUpdates "HTTP/1.1 200 OK"
+2026-04-19 22:53:29,167 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8769353134:AAHB4LDYhJL8ayxjPFiznyNCdnmStPPau10/sendMessage "HTTP/1.1 200 OK"
+2026-04-19 22:53:34,159 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8769353134:AAHB4LDYhJL8ayxjPFiznyNCdnmStPPau10/getUpdates "HTTP/1.1 200 OK"
+2026-04-19 22:53:34,459 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8769353134:AAHB4LDYhJL8ayxjPFiznyNCdnmStPPau10/sendMessage "HTTP/1.1 200 OK"
+2026-04-19 22:53:42,629 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8769353134:AAHB4LDYhJL8ayxjPFiznyNCdnmStPPau10/getUpdates "HTTP/1.1 200 OK"
+2026-04-19 22:53:47,819 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8769353134:AAHB4LDYhJL8ayxjPFiznyNCdnmStPPau10/getUpdates "HTTP/1.1 200 OK"
+2026-04-19 22:53:48,691 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8769353134:AAHB4LDYhJL8ayxjPFiznyNCdnmStPPau10/sendMessage "HTTP/1.1 200 OK"
+2026-04-19 22:53:58,096 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8769353134:AAHB4LDYhJL8ayxjPFiznyNCdnmStPPau10/getUpdates "HTTP/1.1 200 OK"
+2026-04-19 22:54:08,370 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8769353134:AAHB4LDYhJL8ayxjPFiznyNCdnmStPPau10/getUpdates "HTTP/1.1 200 OK"
+2026-04-19 22:54:18,647 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8769353134:AAHB4LDYhJL8ayxjPFiznyNCdnmStPPau10/getUpdates "HTTP/1.1 200 OK"
+2026-04-19 22:54:28,923 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8769353134:AAHB4LDYhJL8ayxjPFiznyNCdnmStPPau10/getUpdates "HTTP/1.1 200 OK"
+2026-04-19 22:54:39,198 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8769353134:AAHB4LDYhJL8ayxjPFiznyNCdnmStPPau10/getUpdates "HTTP/1.1 200 OK"
+2026-04-19 22:54:46,141 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8769353134:AAHB4LDYhJL8ayxjPFiznyNCdnmStPPau10/getUpdates "HTTP/1.1 200 OK"
+2026-04-19 22:54:47,410 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8769353134:AAHB4LDYhJL8ayxjPFiznyNCdnmStPPau10/sendMessage "HTTP/1.1 200 OK"
+2026-04-19 22:54:49,606 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8769353134:AAHB4LDYhJL8ayxjPFiznyNCdnmStPPau10/getUpdates "HTTP/1.1 200 OK"
+2026-04-19 22:54:49,923 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8769353134:AAHB4LDYhJL8ayxjPFiznyNCdnmStPPau10/sendMessage "HTTP/1.1 200 OK"
+2026-04-19 22:54:58,161 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8769353134:AAHB4LDYhJL8ayxjPFiznyNCdnmStPPau10/getUpdates "HTTP/1.1 200 OK"
+2026-04-19 22:54:59,029 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8769353134:AAHB4LDYhJL8ayxjPFiznyNCdnmStPPau10/sendMessage "HTTP/1.1 200 OK"
+2026-04-19 22:55:01,367 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8769353134:AAHB4LDYhJL8ayxjPFiznyNCdnmStPPau10/getUpdates "HTTP/1.1 200 OK"
+2026-04-19 22:55:04,776 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8769353134:AAHB4LDYhJL8ayxjPFiznyNCdnmStPPau10/getUpdates "HTTP/1.1 200 OK"
+2026-04-19 22:55:05,896 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8769353134:AAHB4LDYhJL8ayxjPFiznyNCdnmStPPau10/sendMessage "HTTP/1.1 200 OK"
+2026-04-19 22:55:15,054 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8769353134:AAHB4LDYhJL8ayxjPFiznyNCdnmStPPau10/getUpdates "HTTP/1.1 200 OK"
+2026-04-19 22:55:25,333 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8769353134:AAHB4LDYhJL8ayxjPFiznyNCdnmStPPau10/getUpdates "HTTP/1.1 200 OK"
+2026-04-19 22:55:35,610 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8769353134:AAHB4LDYhJL8ayxjPFiznyNCdnmStPPau10/getUpdates "HTTP/1.1 200 OK"
+2026-04-19 22:55:45,887 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8769353134:AAHB4LDYhJL8ayxjPFiznyNCdnmStPPau10/getUpdates "HTTP/1.1 200 OK"
+2026-04-19 22:55:56,162 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8769353134:AAHB4LDYhJL8ayxjPFiznyNCdnmStPPau10/getUpdates "HTTP/1.1 200 OK"
+2026-04-19 22:56:06,440 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8769353134:AAHB4LDYhJL8ayxjPFiznyNCdnmStPPau10/getUpdates "HTTP/1.1 200 OK"
+2026-04-19 22:56:17,058 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8769353134:AAHB4LDYhJL8ayxjPFiznyNCdnmStPPau10/getUpdates "HTTP/1.1 200 OK"
+2026-04-19 22:56:27,335 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8769353134:AAHB4LDYhJL8ayxjPFiznyNCdnmStPPau10/getUpdates "HTTP/1.1 200 OK"
+2026-04-19 22:56:37,615 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8769353134:AAHB4LDYhJL8ayxjPFiznyNCdnmStPPau10/getUpdates "HTTP/1.1 200 OK"
+2026-04-19 22:56:47,893 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8769353134:AAHB4LDYhJL8ayxjPFiznyNCdnmStPPau10/getUpdates "HTTP/1.1 200 OK"
+2026-04-19 22:56:58,169 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8769353134:AAHB4LDYhJL8ayxjPFiznyNCdnmStPPau10/getUpdates "HTTP/1.1 200 OK"
+2026-04-19 22:57:08,446 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8769353134:AAHB4LDYhJL8ayxjPFiznyNCdnmStPPau10/getUpdates "HTTP/1.1 200 OK"
+2026-04-19 22:57:18,723 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8769353134:AAHB4LDYhJL8ayxjPFiznyNCdnmStPPau10/getUpdates "HTTP/1.1 200 OK"
+2026-04-19 22:57:29,000 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8769353134:AAHB4LDYhJL8ayxjPFiznyNCdnmStPPau10/getUpdates "HTTP/1.1 200 OK"
+2026-04-19 22:57:39,278 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8769353134:AAHB4LDYhJL8ayxjPFiznyNCdnmStPPau10/getUpdates "HTTP/1.1 200 OK"
+2026-04-19 22:57:49,555 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8769353134:AAHB4LDYhJL8ayxjPFiznyNCdnmStPPau10/getUpdates "HTTP/1.1 200 OK"
+2026-04-19 22:57:59,831 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8769353134:AAHB4LDYhJL8ayxjPFiznyNCdnmStPPau10/getUpdates "HTTP/1.1 200 OK"
+2026-04-19 22:58:10,109 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8769353134:AAHB4LDYhJL8ayxjPFiznyNCdnmStPPau10/getUpdates "HTTP/1.1 200 OK"
+2026-04-19 22:58:20,383 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8769353134:AAHB4LDYhJL8ayxjPFiznyNCdnmStPPau10/getUpdates "HTTP/1.1 200 OK"
+2026-04-19 22:58:30,660 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8769353134:AAHB4LDYhJL8ayxjPFiznyNCdnmStPPau10/getUpdates "HTTP/1.1 200 OK"
+2026-04-19 22:58:40,937 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8769353134:AAHB4LDYhJL8ayxjPFiznyNCdnmStPPau10/getUpdates "HTTP/1.1 200 OK"
+2026-04-19 22:58:51,215 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8769353134:AAHB4LDYhJL8ayxjPFiznyNCdnmStPPau10/getUpdates "HTTP/1.1 200 OK"
+2026-04-19 22:59:01,494 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8769353134:AAHB4LDYhJL8ayxjPFiznyNCdnmStPPau10/getUpdates "HTTP/1.1 200 OK"
+2026-04-19 22:59:11,770 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8769353134:AAHB4LDYhJL8ayxjPFiznyNCdnmStPPau10/getUpdates "HTTP/1.1 200 OK"
+2026-04-19 22:59:22,047 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8769353134:AAHB4LDYhJL8ayxjPFiznyNCdnmStPPau10/getUpdates "HTTP/1.1 200 OK"
+2026-04-19 22:59:32,324 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8769353134:AAHB4LDYhJL8ayxjPFiznyNCdnmStPPau10/getUpdates "HTTP/1.1 200 OK"
+2026-04-19 22:59:42,599 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8769353134:AAHB4LDYhJL8ayxjPFiznyNCdnmStPPau10/getUpdates "HTTP/1.1 200 OK"
+2026-04-19 22:59:52,891 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8769353134:AAHB4LDYhJL8ayxjPFiznyNCdnmStPPau10/getUpdates "HTTP/1.1 200 OK"
+2026-04-19 23:00:02,848 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8769353134:AAHB4LDYhJL8ayxjPFiznyNCdnmStPPau10/getMe "HTTP/1.1 200 OK"
+2026-04-19 23:00:03,103 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8769353134:AAHB4LDYhJL8ayxjPFiznyNCdnmStPPau10/deleteWebhook "HTTP/1.1 200 OK"
+2026-04-19 23:00:03,105 - telegram.ext.Application - INFO - Application started
+2026-04-19 23:00:13,949 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8769353134:AAHB4LDYhJL8ayxjPFiznyNCdnmStPPau10/getUpdates "HTTP/1.1 200 OK"
+2026-04-19 23:00:23,795 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8769353134:AAHB4LDYhJL8ayxjPFiznyNCdnmStPPau10/getUpdates "HTTP/1.1 200 OK"
+2026-04-19 23:00:24,934 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8769353134:AAHB4LDYhJL8ayxjPFiznyNCdnmStPPau10/sendMessage "HTTP/1.1 200 OK"
+2026-04-19 23:00:31,096 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8769353134:AAHB4LDYhJL8ayxjPFiznyNCdnmStPPau10/getUpdates "HTTP/1.1 200 OK"
+2026-04-19 23:00:31,988 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8769353134:AAHB4LDYhJL8ayxjPFiznyNCdnmStPPau10/sendMessage "HTTP/1.1 200 OK"
+2026-04-19 23:00:34,904 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8769353134:AAHB4LDYhJL8ayxjPFiznyNCdnmStPPau10/getUpdates "HTTP/1.1 200 OK"
+2026-04-19 23:00:35,262 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8769353134:AAHB4LDYhJL8ayxjPFiznyNCdnmStPPau10/sendMessage "HTTP/1.1 200 OK"
+2026-04-19 23:00:38,604 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8769353134:AAHB4LDYhJL8ayxjPFiznyNCdnmStPPau10/getUpdates "HTTP/1.1 200 OK"
+2026-04-19 23:00:38,893 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8769353134:AAHB4LDYhJL8ayxjPFiznyNCdnmStPPau10/sendMessage "HTTP/1.1 200 OK"
+2026-04-19 23:00:48,891 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8769353134:AAHB4LDYhJL8ayxjPFiznyNCdnmStPPau10/getUpdates "HTTP/1.1 200 OK"
+2026-04-19 23:00:53,511 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8769353134:AAHB4LDYhJL8ayxjPFiznyNCdnmStPPau10/getUpdates "HTTP/1.1 200 OK"
+2026-04-19 23:00:54,855 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8769353134:AAHB4LDYhJL8ayxjPFiznyNCdnmStPPau10/sendMessage "HTTP/1.1 200 OK"
+2026-04-19 23:01:03,793 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8769353134:AAHB4LDYhJL8ayxjPFiznyNCdnmStPPau10/getUpdates "HTTP/1.1 200 OK"
+2026-04-19 23:01:05,996 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8769353134:AAHB4LDYhJL8ayxjPFiznyNCdnmStPPau10/getUpdates "HTTP/1.1 200 OK"
+2026-04-19 23:01:07,336 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8769353134:AAHB4LDYhJL8ayxjPFiznyNCdnmStPPau10/sendMessage "HTTP/1.1 200 OK"
+2026-04-19 23:01:16,277 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8769353134:AAHB4LDYhJL8ayxjPFiznyNCdnmStPPau10/getUpdates "HTTP/1.1 200 OK"
+2026-04-19 23:01:17,249 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8769353134:AAHB4LDYhJL8ayxjPFiznyNCdnmStPPau10/getUpdates "HTTP/1.1 200 OK"
+2026-04-19 23:01:18,184 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8769353134:AAHB4LDYhJL8ayxjPFiznyNCdnmStPPau10/sendMessage "HTTP/1.1 200 OK"
+2026-04-19 23:01:27,536 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8769353134:AAHB4LDYhJL8ayxjPFiznyNCdnmStPPau10/getUpdates "HTTP/1.1 200 OK"
