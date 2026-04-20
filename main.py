@@ -1,13 +1,17 @@
+# bot.py (финальная стабильная версия)
 import asyncio
 import json
 import os
-import traceback
+import logging
 from datetime import datetime
 from telegram import Update, ReplyKeyboardMarkup, KeyboardButton
 from telegram.ext import Application, CommandHandler, MessageHandler, filters, ContextTypes
 from src.account_manager import AccountManager
 from src.broadcaster import BroadcastManager
 from src.notifier import Notifier
+
+logging.basicConfig(level=logging.INFO)
+logger = logging.getLogger(__name__)
 
 with open("config.json", 'r', encoding='utf-8') as f:
     config = json.load(f)
@@ -17,6 +21,7 @@ CHAT_ID = str(config["notification_bot"]["chat_id"])
 stop_loop = False
 current_broadcast_task = None
 waiting_for_input = {}
+_global_bot = None
 
 main_keyboard = ReplyKeyboardMarkup([
     [KeyboardButton("🚀 Начать рассылку")],
@@ -30,10 +35,7 @@ main_keyboard = ReplyKeyboardMarkup([
 def is_authorized(update):
     return str(update.effective_chat.id) == CHAT_ID
 
-_global_bot = None
-
 async def ask_code_or_password(type_: str, phone: str, account_index: int):
-    global waiting_for_input
     chat_id = int(CHAT_ID)
     waiting_for_input[chat_id] = {
         'type': type_,
@@ -48,7 +50,8 @@ async def ask_code_or_password(type_: str, phone: str, account_index: int):
     while chat_id in waiting_for_input and waiting_for_input[chat_id].get('type') == type_:
         await asyncio.sleep(0.5)
     result = waiting_for_input[chat_id].get('value')
-    del waiting_for_input[chat_id]
+    if chat_id in waiting_for_input:
+        del waiting_for_input[chat_id]
     return result
 
 async def start(update: Update, context: ContextTypes.DEFAULT_TYPE):
@@ -63,14 +66,11 @@ async def start(update: Update, context: ContextTypes.DEFAULT_TYPE):
 
 async def broadcast_loop(update: Update, context: ContextTypes.DEFAULT_TYPE):
     global stop_loop
-    print("broadcast_loop started")
-    try:
-        acc_mgr = AccountManager(gui_callback=ask_code_or_password)
-        notifier = Notifier(TOKEN, CHAT_ID)
-        print("AccountManager created")
+    acc_mgr = AccountManager(gui_callback=ask_code_or_password)
+    notifier = Notifier(TOKEN, CHAT_ID)
 
-        while not stop_loop:
-            print("Starting new cycle...")
+    while not stop_loop:
+        try:
             with open("config.json", 'r') as f:
                 settings = json.load(f)["broadcast_settings"]
             interval_hours = settings.get("interval_hours", 1)
@@ -82,30 +82,27 @@ async def broadcast_loop(update: Update, context: ContextTypes.DEFAULT_TYPE):
                 if stop_loop:
                     break
                 try:
-                    print(f"Processing account {acc['phone']}")
-                    await update.message.reply_text(f"📱 Подключаюсь к {acc['phone']}...")
                     client = await acc_mgr.get_client(idx)
                     broadcaster = BroadcastManager(client, settings, notifier)
                     await broadcaster.broadcast_to_all_chats()
                     await client.disconnect()
                     await update.message.reply_text(f"✅ {acc['phone']}: отправлено {broadcaster.sent_count}")
                 except Exception as e:
-                    error_msg = f"❌ {acc['phone']}: {str(e)}\n{traceback.format_exc()}"
-                    print(error_msg)
-                    await update.message.reply_text(error_msg[:4000])
+                    logger.error(f"Ошибка с аккаунтом {acc['phone']}: {e}")
+                    await update.message.reply_text(f"❌ {acc['phone']}: {e}")
 
-            if not stop_loop:
+            if not stop_loop and interval_seconds > 0:
                 await update.message.reply_text(f"💤 Цикл завершён. Ожидание {interval_hours} час(ов)...")
                 for _ in range(int(interval_seconds)):
                     if stop_loop:
                         break
                     await asyncio.sleep(1)
+        except Exception as e:
+            logger.error(f"Ошибка в цикле рассылки: {e}")
+            await update.message.reply_text(f"❌ Критическая ошибка: {e}")
+            break
 
-        await update.message.reply_text("🔴 Рассылка полностью остановлена.")
-    except Exception as e:
-        error_msg = f"Критическая ошибка в broadcast_loop: {str(e)}\n{traceback.format_exc()}"
-        print(error_msg)
-        await update.message.reply_text(error_msg[:4000])
+    await update.message.reply_text("🔴 Рассылка полностью остановлена.")
 
 async def handle_buttons(update: Update, context: ContextTypes.DEFAULT_TYPE):
     global stop_loop, current_broadcast_task, waiting_for_input
@@ -115,43 +112,44 @@ async def handle_buttons(update: Update, context: ContextTypes.DEFAULT_TYPE):
     text = update.message.text
     chat_id = update.effective_chat.id
 
-    if chat_id in waiting_for_input:
-        if waiting_for_input[chat_id]['type'] in ('code', 'password'):
-            waiting_for_input[chat_id]['value'] = text
-            return
-        elif waiting_for_input[chat_id]['type'] == 'message':
+    # Ожидание ввода кода/пароля
+    if chat_id in waiting_for_input and waiting_for_input[chat_id]['type'] in ('code', 'password'):
+        waiting_for_input[chat_id]['value'] = text
+        return
+
+    # Ожидание изменения текста или интервала
+    if chat_id in waiting_for_input and waiting_for_input[chat_id]['type'] == 'message':
+        with open("config.json", 'r') as f:
+            data = json.load(f)
+        data["broadcast_settings"]["message"] = text
+        with open("config.json", 'w') as f:
+            json.dump(data, f, indent=4)
+        await update.message.reply_text(f"✅ Текст обновлён:\n{text}")
+        del waiting_for_input[chat_id]
+        return
+    if chat_id in waiting_for_input and waiting_for_input[chat_id]['type'] == 'interval':
+        try:
+            val = float(text)
+            if val <= 0: raise ValueError
             with open("config.json", 'r') as f:
                 data = json.load(f)
-            data["broadcast_settings"]["message"] = text
+            data["broadcast_settings"]["interval_hours"] = val
             with open("config.json", 'w') as f:
                 json.dump(data, f, indent=4)
-            await update.message.reply_text(f"✅ Текст обновлён:\n{text}")
-            del waiting_for_input[chat_id]
-            return
-        elif waiting_for_input[chat_id]['type'] == 'interval':
-            try:
-                val = float(text)
-                if val <= 0:
-                    raise ValueError
-                with open("config.json", 'r') as f:
-                    data = json.load(f)
-                data["broadcast_settings"]["interval_hours"] = val
-                with open("config.json", 'w') as f:
-                    json.dump(data, f, indent=4)
-                await update.message.reply_text(f"✅ Интервал обновлён: {val} ч")
-            except:
-                await update.message.reply_text("❌ Неверный формат. Введите положительное число.")
-            del waiting_for_input[chat_id]
-            return
+            await update.message.reply_text(f"✅ Интервал обновлён: {val} ч")
+        except:
+            await update.message.reply_text("❌ Неверный формат. Введите положительное число.")
+        del waiting_for_input[chat_id]
+        return
 
+    # Основные кнопки
     if text == "🚀 Начать рассылку":
         if current_broadcast_task and not current_broadcast_task.done():
-            await update.message.reply_text("ℹ️ Рассылка уже запущена. Сначала остановите.")
+            await update.message.reply_text("ℹ️ Рассылка уже запущена.")
             return
         stop_loop = False
         await update.message.reply_text("🚀 Запускаю циклическую рассылку...")
         current_broadcast_task = asyncio.create_task(broadcast_loop(update, context))
-        print("Broadcast task created")
 
     elif text == "⏹ Завершить рассылку":
         stop_loop = True
@@ -200,7 +198,6 @@ def main():
     _global_bot = app.bot
     app.add_handler(CommandHandler("start", start))
     app.add_handler(MessageHandler(filters.TEXT & ~filters.COMMAND, handle_buttons))
-    print("Bot started, polling...")
     app.run_polling()
 
 if __name__ == "__main__":
