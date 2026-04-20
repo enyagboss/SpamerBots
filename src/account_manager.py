@@ -11,7 +11,7 @@ os.makedirs(ACCOUNTS_DIR, exist_ok=True)
 class AccountManager:
     def __init__(self, config_path="config.json", gui_callback=None):
         self.config_path = config_path
-        self.gui_callback = gui_callback  # функция для запроса кода/пароля в GUI
+        self.gui_callback = gui_callback  # async function(type, phone) -> str
         self.accounts = []
         self.active_clients = {}
         self.load_accounts()
@@ -61,14 +61,21 @@ class AccountManager:
             if self.gui_callback:
                 code = await self.gui_callback("code", acc["phone"])
             else:
-                code = input("Enter code: ")
+                # fallback to console input
+                try:
+                    code = input(f"Enter code for {acc['phone']}: ")
+                except EOFError:
+                    raise Exception("No console input available. Provide gui_callback or run interactively.")
             try:
                 await client.sign_in(acc["phone"], code)
             except SessionPasswordNeededError:
                 if self.gui_callback:
                     pwd = await self.gui_callback("password", acc["phone"])
                 else:
-                    pwd = input("2FA password: ")
+                    try:
+                        pwd = input(f"2FA password for {acc['phone']}: ")
+                    except EOFError:
+                        raise Exception("No console input available.")
                 await client.sign_in(password=pwd)
         self.active_clients[account_index] = client
         return client
