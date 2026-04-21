@@ -5,7 +5,6 @@ import asyncio
 import json
 import os
 import random
-import time
 from datetime import datetime
 from telethon import TelegramClient, errors
 from telethon.tl.functions.messages import ImportChatInviteRequest
@@ -19,8 +18,9 @@ CHATS_FILE = "chats.txt"
 STATS_FILE = "stats.json"
 ACCOUNTS_DIR = "accounts"
 os.makedirs(ACCOUNTS_DIR, exist_ok=True)
+os.makedirs("logs", exist_ok=True)
 
-# Загрузка конфига
+# Загрузка или создание конфига
 if not os.path.exists(CONFIG_FILE):
     default_config = {
         "broadcast_settings": {
@@ -50,7 +50,8 @@ CHAT_ID = str(config["notification_bot"]["chat_id"])
 # Глобальные состояния
 stop_loop = False
 current_broadcast_task = None
-waiting_for_input = {}  # {chat_id: {'type': ..., 'account_index': ...}}
+waiting_for_input = {}  # {chat_id: {'type': ..., 'step': ..., 'data': ...}}
+pending_codes = {}       # {phone: asyncio.Future} для ожидания кода
 
 # Клавиатура
 main_keyboard = ReplyKeyboardMarkup([
@@ -69,7 +70,6 @@ def is_authorized(update):
     return str(update.effective_chat.id) == CHAT_ID
 
 def log_message(msg):
-    """Пишет в консоль и в файл лога"""
     timestamp = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
     log_entry = f"[{timestamp}] {msg}"
     print(log_entry)
@@ -98,11 +98,22 @@ def save_accounts(accounts):
     with open(CONFIG_FILE, "w") as f:
         json.dump(data, f, indent=4)
 
-# ==================== РАБОТА С АККАУНТАМИ ====================
+# ==================== УПРАВЛЕНИЕ АККАУНТАМИ (С ЗАПРОСОМ КОДА ЧЕРЕЗ БОТА) ====================
 class AccountManager:
-    def __init__(self):
+    def __init__(self, bot_app):
+        self.bot_app = bot_app
         self.accounts = load_accounts()
         self.active_clients = {}
+
+    async def ask_code(self, phone, is_password=False):
+        """Запрашивает код или пароль через Telegram бота"""
+        future = asyncio.Future()
+        pending_codes[phone] = future
+        msg = "Введите пароль 2FA" if is_password else "Введите код подтверждения"
+        await self.bot_app.bot.send_message(CHAT_ID, f"🔐 {msg} для {phone}:")
+        result = await future
+        del pending_codes[phone]
+        return result
 
     async def get_client(self, index):
         if index in self.active_clients:
@@ -113,12 +124,11 @@ class AccountManager:
         await client.connect()
         if not await client.is_user_authorized():
             await client.send_code_request(acc["phone"])
-            # Код нужно ввести в консоли (при запуске на сервере)
-            code = input(f"Введите код для {acc['phone']}: ")
+            code = await self.ask_code(acc["phone"])
             try:
                 await client.sign_in(acc["phone"], code)
             except errors.SessionPasswordNeededError:
-                pwd = input(f"2FA пароль для {acc['phone']}: ")
+                pwd = await self.ask_code(acc["phone"], is_password=True)
                 await client.sign_in(password=pwd)
         self.active_clients[index] = client
         return client
@@ -130,10 +140,9 @@ class AccountManager:
 
 # ==================== РАССЫЛКА ====================
 class BroadcastManager:
-    def __init__(self, client, settings, notifier=None):
+    def __init__(self, client, settings):
         self.client = client
         self.settings = settings
-        self.notifier = notifier
         self.sent_count = 0
         self.running = True
 
@@ -173,8 +182,7 @@ class BroadcastManager:
                 await self.client.delete_dialog(entity)
             except:
                 pass
-            if link and self.settings.get("mode") == "file":
-                # удаляем ссылку из chats.txt
+            if link and self.settings.get("mode") == "file" and os.path.exists(CHATS_FILE):
                 with open(CHATS_FILE, "r") as f:
                     lines = f.readlines()
                 with open(CHATS_FILE, "w") as f:
@@ -203,8 +211,11 @@ class BroadcastManager:
             targets = []
             for link in lines:
                 if await self.join_chat(link):
-                    entity = await self.client.get_entity(link)
-                    targets.append((entity, link))
+                    try:
+                        entity = await self.client.get_entity(link)
+                        targets.append((entity, link))
+                    except:
+                        log_message(f"⚠️ Не удалось получить entity для {link}")
                 else:
                     log_message(f"⚠️ Не вступили в {link}")
             log_message(f"🚀 Рассылка по файлу ({len(targets)} чатов)")
@@ -240,10 +251,10 @@ async def start(update: Update, context: ContextTypes.DEFAULT_TYPE):
         parse_mode='Markdown'
     )
 
-async def broadcast_loop(update: Update):
+async def broadcast_loop(update: Update, context: ContextTypes.DEFAULT_TYPE):
     global stop_loop
     stop_loop = False
-    acc_mgr = AccountManager()
+    acc_mgr = AccountManager(context.application)
     if not acc_mgr.accounts:
         await update.message.reply_text("❌ Нет добавленных аккаунтов. Добавьте через кнопку.")
         return
@@ -280,11 +291,17 @@ async def handle_buttons(update: Update, context: ContextTypes.DEFAULT_TYPE):
     text = update.message.text
     chat_id = update.effective_chat.id
 
-    # Обработка ввода данных для добавления аккаунта
+    # Обработка ввода кода подтверждения (пришёл ответ от пользователя)
+    if chat_id in pending_codes:
+        future = pending_codes.get(chat_id)
+        if future and not future.done():
+            future.set_result(text)
+        return
+
+    # Обработка многошагового ввода (добавление аккаунта, удаление, изменение текста и т.д.)
     if chat_id in waiting_for_input:
         data = waiting_for_input[chat_id]
         if data['type'] == 'add_account':
-            # ожидаем: api_id, api_hash, phone
             step = data.get('step', 0)
             if step == 0:
                 try:
@@ -303,7 +320,6 @@ async def handle_buttons(update: Update, context: ContextTypes.DEFAULT_TYPE):
                 phone = text.strip()
                 if not phone.startswith('+'):
                     phone = '+' + phone
-                # сохраняем аккаунт
                 with open(CONFIG_FILE, "r") as f:
                     cfg = json.load(f)
                 cfg["accounts"].append({
@@ -338,7 +354,7 @@ async def handle_buttons(update: Update, context: ContextTypes.DEFAULT_TYPE):
             cfg["broadcast_settings"]["message"] = text
             with open(CONFIG_FILE, "w") as f:
                 json.dump(cfg, f, indent=4)
-            await update.message.reply_text("✅ Текст обновлён.")
+            await update.message.reply_text("✅ Текст сообщения обновлён.")
             del waiting_for_input[chat_id]
             return
         elif data['type'] == 'interval':
@@ -361,7 +377,7 @@ async def handle_buttons(update: Update, context: ContextTypes.DEFAULT_TYPE):
         if current_broadcast_task and not current_broadcast_task.done():
             await update.message.reply_text("ℹ️ Рассылка уже идёт.")
             return
-        current_broadcast_task = asyncio.create_task(broadcast_loop(update))
+        current_broadcast_task = asyncio.create_task(broadcast_loop(update, context))
 
     elif text == "⏹ Завершить рассылку":
         stop_loop = True
@@ -393,7 +409,7 @@ async def handle_buttons(update: Update, context: ContextTypes.DEFAULT_TYPE):
 
     elif text == "⏱ Изменить интервал":
         waiting_for_input[chat_id] = {'type': 'interval'}
-        await update.message.reply_text("Введите интервал (часы):")
+        await update.message.reply_text("Введите интервал между циклами (часы):")
 
     elif text == "📊 Статистика":
         if os.path.exists(STATS_FILE):
@@ -417,13 +433,10 @@ async def handle_buttons(update: Update, context: ContextTypes.DEFAULT_TYPE):
             if len(log_text) > 4000:
                 log_text = log_text[-4000:]
             await update.message.reply_text(f"📜 *Последние логи:*\n```\n{log_text}\n```", parse_mode='Markdown')
-
     else:
         await update.message.reply_text("Используйте кнопки меню.")
 
 def main():
-    # Создаём папку для логов
-    os.makedirs("logs", exist_ok=True)
     app = Application.builder().token(TOKEN).build()
     app.add_handler(CommandHandler("start", start))
     app.add_handler(MessageHandler(filters.TEXT & ~filters.COMMAND, handle_buttons))
